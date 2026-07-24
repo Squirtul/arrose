@@ -1,3 +1,4 @@
+# all positions which would cover this aerodrome top-down if online on their own
 AIRPORT_POSITIONS = {
     "CYYZ": {
         "DEL": [],
