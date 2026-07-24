@@ -70,6 +70,13 @@ AIRPORT_POSITIONS = {
         "APP": [],
         "ACC": ["EDMM_BBG_CTR"],
     },
+    "EDDP": {
+        "DEL": ["EDDP_DEL"],
+        "GND": ["EDDP_GND"],
+        "TWR": ["EDDP_N_TWR", "EDDP_S_TWR"],
+        "APP": ["EDDP_TRS_APP"],
+        "ACC": [],
+    },
     "EDDR": {
         "DEL": [],
         "GND": [],
