@@ -1,0 +1,10 @@
+[Unit]
+Description=Clear arrose status log on boot
+Before=arrose-generate.timer
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/truncate -s 0 /home/pi/arrose/web/status.log
+
+[Install]
+WantedBy=multi-user.target

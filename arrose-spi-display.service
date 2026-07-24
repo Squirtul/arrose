@@ -1,0 +1,16 @@
+[Unit]
+Description=Show VATSIM radar image on Waveshare SPI LCD (arrose)
+After=arrose-generate.service
+Wants=arrose-generate.service
+
+[Service]
+Type=simple
+WorkingDirectory=/home/pi/arrose
+ExecStart=/usr/bin/python3 /home/pi/arrose/spi_display.py
+Restart=always
+RestartSec=5
+# GPIO/SPI access needs root
+User=root
+
+[Install]
+WantedBy=multi-user.target

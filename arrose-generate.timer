@@ -1,0 +1,11 @@
+[Unit]
+Description=Run arrose-generate every minute
+
+[Timer]
+OnBootSec=15
+OnUnitActiveSec=60
+AccuracySec=1s
+Unit=arrose-generate.service
+
+[Install]
+WantedBy=timers.target

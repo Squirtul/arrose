@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Arrose status</title>
+</head>
+<body>
+<pre id="log">loading...</pre>
+<script>
+  async function poll() {
+    try {
+      const res = await fetch("status.log?_=" + Date.now());
+      document.getElementById("log").textContent = await res.text();
+    } catch (err) {
+      document.getElementById("log").textContent = "Waiting for the Pi...";
+    }
+  }
+
+  poll();
+  setInterval(poll, 5000);
+</script>
+</body>
+</html>

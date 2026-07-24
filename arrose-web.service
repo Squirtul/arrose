@@ -1,0 +1,15 @@
+[Unit]
+Description=Serve arrose status page over the local network
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/pi/arrose
+ExecStart=/usr/bin/python3 /home/pi/arrose/web_server.py
+Restart=always
+RestartSec=5
+User=pi
+
+[Install]
+WantedBy=multi-user.target

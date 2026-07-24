@@ -1,0 +1,10 @@
+[Unit]
+Description=Generate VATSIM arrival radar image (arrose)
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/pi/arrose
+ExecStart=/usr/bin/python3 /home/pi/arrose/main.py
+User=pi
