@@ -57,7 +57,7 @@ Added airports and control positions are very limited by my own small-scale data
    Set an airport by entering `set-airport [icao]`. The selected airport will be launched on boot, so SSH is only needed to change airport.
 
 ## Modification:
- - To add more airports, edit `airports.py` (`nano /home/pi/arrose/airports.py` and add the airports' ICAO code and coordinates in the first section, and its name in the second.
+ - To add more airports, edit `airports.py` (`nano /home/pi/arrose/airports.py` and add the airport's ICAO code and coordinates in the first section, and its name in the second.
  - To add positions to be detected for an airport, edit `airport_positions.py` (`nano /home/pi/arrose/airports.py` and add the positions in the format shown.
 
     Save any modifications by entering `Ctrl + O`, then `Enter`, then `Ctrl + X` to leave the editor.

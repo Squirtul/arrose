@@ -1,5 +1,5 @@
 [Unit]
-Description=Show VATSIM radar image on Waveshare SPI LCD (arrose)
+Description=show image on spi
 After=arrose-generate.service
 Wants=arrose-generate.service
 

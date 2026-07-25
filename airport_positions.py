@@ -56,6 +56,13 @@ AIRPORT_POSITIONS = {
         "APP": ["EDDF_H_APP", "EDDF_L_APP", "EDDF_N_APP", "EDDF_S_APP"],
         "ACC": ["EDGG_C_CTR", "EDGG_DKB_CTR", "EDGG_HEF_CTR", "EDGG_RUS_CTR", "EDGG_SH_CTR"],
     },
+    "EDDH": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["EDDH_TWR"],
+        "APP": [],
+        "ACC": [],
+    },
     "EDDM": {
         "DEL": [],
         "GND": ["EDDM_2_GND"],
@@ -155,7 +162,7 @@ AIRPORT_POSITIONS = {
         "ACC": ["EYVL_CTR"],
     },
     "HECA": {
-        "DEL": [],
+        "DEL": ["HECA_DEL"],
         "GND": ["HECA_2_GND"],
         "TWR": ["HECA_TWR"],
         "APP": ["HECA_APP"],
@@ -167,6 +174,13 @@ AIRPORT_POSITIONS = {
         "TWR": ["BOS_TWR"],
         "APP": ["BOS_APP"],
         "ACC": ["BOS_1_CTR"],
+    },
+    "KEVV": {
+        "DEL": ["EVV_DEL"],
+        "GND": ["EVV_GND"],
+        "TWR": ["EVV_TWR"],
+        "APP": ["EVV_W_APP"],
+        "ACC": [],
     },
     "KORD": {
         "DEL": [],
@@ -202,5 +216,33 @@ AIRPORT_POSITIONS = {
         "TWR": ["LPPR_TWR"],
         "APP": ["LPPR_APP"],
         "ACC": ["LPPC_CTR", "LPPC_E_CTR"],
+    },
+    "OEJN": {
+        "DEL": ["OEJN_DEL"],
+        "GND": ["OEJN_W_GND"],
+        "TWR": ["OEJN_W_TWR"],
+        "APP": ["OEJN_APP"],
+        "ACC": ["OEJD_1_CTR"],
+    },
+    "OJAI": {
+        "DEL": [],
+        "GND": ["OJAI_GND"],
+        "TWR": ["OJAI_TWR"],
+        "APP": ["OJAI_APP"],
+        "ACC": ["OJAC_CTR"],
+    },
+    "OKKK": {
+        "DEL": ["OKKK_DEL"],
+        "GND": ["OKKK_1_GND"],
+        "TWR": ["OKKK_TWR"],
+        "APP": ["OKKK_APP"],
+        "ACC": ["OKAC_CTR"],
+    },
+    "OMDB": {
+        "DEL": ["OMDB_DEL", "OMDB_P_DEL"],
+        "GND": ["OMDB_1_GND", "OMDB_2_GND", "OMDB_P_GND"],
+        "TWR": ["OMDB_1_TWR"],
+        "APP": ["OMDB_APP"],
+        "ACC": ["OMAE_1_CTR"],
     },
 }

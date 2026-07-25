@@ -1,5 +1,5 @@
 [Unit]
-Description=Generate VATSIM arrival radar image (arrose)
+Description=Generate image
 Wants=network-online.target
 After=network-online.target
 
