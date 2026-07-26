@@ -1,7 +1,7 @@
 
 # helpful functions/proc related to grids
 
-from config import RING_LENGTH, NUM_RINGS, NUM_SECTORS
+from config import RING_LENGTH, NUM_RINGS, NUM_SECTORS, RING_OFFSET
 
 # makes the grid based on selected sector and ring numbers !!sector number is flexible here, but not in bearing calculations. need to fix this before you change sector number!!
 def createGrid():
@@ -9,6 +9,9 @@ def createGrid():
 
 # find an acfts ring based on its eta. since acft closer than 25m arent shown, the innermost ring is given an unfair disadvantage.. maybe some leeway for it later
 def getRing(eta_minutes):
+    shifted_eta = eta_minutes - RING_OFFSET
+    if shifted_eta < 0:
+        return None
     ring = int(eta_minutes // RING_LENGTH)
     if ring >= NUM_RINGS:
         # ring cap

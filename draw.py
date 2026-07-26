@@ -22,6 +22,7 @@ BAR_TOP_PADDING = 32  # gap between squares and top border
 SQUARE_SIZE = 44  # gap for squares
 BAR_SQUARE_GAP = 10  # horizontal gap between squares
 DIAGRAM_TOP_GAP = 15 # more to push the diagram further down.. looks more balanced that way. this one is theoretically futile
+DIAGRAM_EXTRA_OFFSET = 10 # extra nudge down
 CANVAS_WIDTH = SIZE
 TARGET_DISPLAY_WIDTH = 240 # resolution of display used. can be rid of if connecting via hdmi
 TARGET_DISPLAY_HEIGHT = 320
@@ -147,14 +148,14 @@ def draw_grid(grid, category_counts=None):
             
             if ring == 0:
                 if r >= ring_step - INNER_RING_STROKE:
-                    pixels[x, y + y_offset] = INNER_RING_COLOUR # inner ring is always white! its actually calculated including the centrepiece, then shifted up lol
+                    pixels[x, y + y_offset + DIAGRAM_EXTRA_OFFSET] = INNER_RING_COLOUR # inner ring is always white! its actually calculated including the centrepiece, then shifted up lol
                 continue
 
             angle = math.atan2(dy, dx)
             angle = (math.degrees(angle) + 450) % 360
             sector = int(angle // (360 / sectors)) % sectors
             value = grid[ring][sector]
-            pixels[x, y + y_offset] = getColour(value) # drawing sectors
+            pixels[x, y + y_offset + DIAGRAM_EXTRA_OFFSET] = getColour(value) # drawing sectors
 
     draw = ImageDraw.Draw(img)
 
