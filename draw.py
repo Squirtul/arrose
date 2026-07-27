@@ -22,7 +22,7 @@ BAR_TOP_PADDING = 32  # gap between squares and top border
 SQUARE_SIZE = 44  # gap for squares
 BAR_SQUARE_GAP = 10  # horizontal gap between squares
 DIAGRAM_TOP_GAP = 15 # more to push the diagram further down.. looks more balanced that way. this one is theoretically futile
-DIAGRAM_EXTRA_OFFSET = 10 # extra nudge down
+DIAGRAM_EXTRA_OFFSET = 35 # extra nudge down
 CANVAS_WIDTH = SIZE
 TARGET_DISPLAY_WIDTH = 240 # resolution of display used. can be rid of if connecting via hdmi
 TARGET_DISPLAY_HEIGHT = 320
@@ -99,6 +99,8 @@ def drawControllerBar(draw, category_counts):
         draw.text((tx, ty), letter, font=font, fill=(255, 255, 255))
 
         extra = category_counts[cat] - 1 # number of extra stripe
+        if extra > 3:
+            extra = 3
         strip_y = y1 + STRIP_GAP
         for _ in range(extra):
             draw.rectangle(
