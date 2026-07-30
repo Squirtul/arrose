@@ -1,14 +1,18 @@
+import re
 
-# returns number of controllers of each type as a dict
+# return online controllers
 
 sfxs = ["DEL", "GND", "TWR", "APP", "ACC"]
 
+
+def normalise(callsign):
+    return re.sub(r"_+", "_", callsign) # clear relief callsigns. eg "EFHK__DEL" > "EFHK_DEL"
+
+
 def controllerCount(controllers, position_lists):
-    online = {c["callsign"] for c in controllers}
+    online = {normalise(c["callsign"]) for c in controllers}
     counts = {}
     for category in sfxs:
         positions = position_lists.get(category, [])
-        counts[category] = sum(1 for pos in positions if pos in online)
+        counts[category] = sum(1 for pos in positions if normalise(pos) in online)
     return counts
-
-    # currently anything over 3 is irrelevant.. could always cap it at 3
