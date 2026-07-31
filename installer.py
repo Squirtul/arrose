@@ -23,6 +23,16 @@ def main():
     print("Starting installation in 3 seconds...")
     time.sleep(3)
 
+    run_command(["sudo", "apt", "install", "-y", "dos2unix"]) # stops windows fucking with crlf endings
+    run_command(
+        "find . -maxdepth 1 -type f "
+        "\\( -name '*.py' -o -name '*.service' -o -name '*.timer' "
+        "-o -name 'set-airport' -o -name 'arrose-sudoers' \\) "
+        "-exec dos2unix {} +",
+        shell=True,
+        ignore_errors=True,
+    )
+
     print("\n--- Enabling SPI Interface ---")
     run_command(["sudo", "raspi-config", "nonint", "do_spi", "0"])
 

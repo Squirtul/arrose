@@ -53,6 +53,8 @@ Added airports and control positions are very limited by my own small-scale data
 
    From your PC, run the file `installer.bat` and follow the steps given. The software will be set up for you.
 
+   The file transfer can fail randomly. Attempt at least 3 times before troubleshooting further.
+
 > [!NOTE]
 > The main installer will only run on **windows** machines. You can manually SCP the files onto the Pi and run installer.py to skip this process.
 
