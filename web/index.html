@@ -2,11 +2,48 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Arrose status</title>
+<title>Arrose</title>
 </head>
 <body>
+<div>
+  <label for="airport-select">Airport:</label>
+  <select id="airport-select"></select>
+  <button id="set-airport-btn">Set</button>
+  <span id="set-airport-msg"></span>
+</div>
 <pre id="log">loading...</pre>
 <script>
+  async function loadAirports() {
+    try {
+      const res = await fetch("/airports");
+      const airports = await res.json();
+      const select = document.getElementById("airport-select");
+      select.innerHTML = "";
+      for (const icao of airports) {
+        const opt = document.createElement("option");
+        opt.value = icao;
+        opt.textContent = icao;
+        select.appendChild(opt);
+      }
+    } catch (err) {
+      console.error("failed to load airports", err);
+    }
+  }
+
+  async function setAirport() {
+    const select = document.getElementById("airport-select");
+    const msg = document.getElementById("set-airport-msg");
+    const icao = select.value;
+    msg.textContent = "Setting...";
+    try {
+      const res = await fetch("/set-airport?icao=" + encodeURIComponent(icao));
+      const data = await res.json();
+      msg.textContent = data.message;
+    } catch (err) {
+      msg.textContent = "Failed to set airport.";
+    }
+  }
+
   async function poll() {
     try {
       const res = await fetch("status.log?_=" + Date.now());
@@ -16,6 +53,9 @@
     }
   }
 
+  document.getElementById("set-airport-btn").addEventListener("click", setAirport);
+
+  loadAirports();
   poll();
   setInterval(poll, 5000);
 </script>
