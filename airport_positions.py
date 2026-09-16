@@ -820,7 +820,7 @@ AIRPORT_POSITIONS = {
         "GND": [],
         "TWR": ["LRIA_TWR"],
         "APP": [],
-        "ACC": ["LRBB_CTR"],
+        "ACC": ["LRBB_CTR", "LRBB_E_CTR"],
     },
     "LROP": {
         "DEL": [],
