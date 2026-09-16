@@ -955,6 +955,20 @@ AIRPORT_POSITIONS = {
         "APP": ["RPLL_APP", "RPLL_F_APP"],
         "ACC": ["MNL_CTR"],
     },
+    "UKDD": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["UKDD_TWR"],
+        "APP": ["UKDD_APP"],
+        "ACC": ["UKR_CTR"],
+    },
+    "UKLL": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["UKLL_TWR"],
+        "APP": ["UKLL_APP"],
+        "ACC": ["UKR_CTR"],
+    },
     "VCBI": {
         "DEL": ["VCBI_DEL"],
         "GND": ["VCBI_GND"],
