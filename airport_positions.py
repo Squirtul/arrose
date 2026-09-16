@@ -434,8 +434,15 @@ AIRPORT_POSITIONS = {
         "DEL": ["ESGG_DEL"],
         "GND": ["ESGG_GND"],
         "TWR": ["ESGG_TWR"],
-        "APP": [],
-        "ACC": [],
+        "APP": ["ESGG_E_APP"],
+        "ACC": ["ESMM_CTR", "ESMM_5_CTR"],
+    },
+    "ESMS": {
+        "DEL": [],
+        "GND": ["ESMS_GND"],
+        "TWR": ["ESMS_TWR"],
+        "APP": ["ESMS_APP"],
+        "ACC": ["ESMM_CTR", "ESMM_K_CTR"],
     },
     "ESPA": {
         "DEL": [],
