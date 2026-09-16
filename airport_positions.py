@@ -871,6 +871,20 @@ AIRPORT_POSITIONS = {
         "APP": ["LYBE_APP"],
         "ACC": ["ADR_CTR", "ADR_E_CTR", "LYBA_CTR"],
     },
+    "LZIB": {
+        "DEL": [],
+        "GND": ["LZIB_GND"],
+        "TWR": ["LZIB_TWR"],
+        "APP": ["LZIB_APP"],
+        "ACC": ["LZBB_CTR"],
+    },
+    "LZKZ": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["LZKZ_TWR"],
+        "APP": ["LZKZ_APP"],
+        "ACC": ["LZBB_CTR"],
+    },
     "OBBI": {
         "DEL": ["OBBI_DEL"],
         "GND": ["OBBI_GND"],
