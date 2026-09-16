@@ -47,7 +47,7 @@ Added airports and control positions are very limited by my own small-scale data
 
 2. Insert your MicroSD into a separate computer and use the [Raspberry Pi Imager](https://www.raspberrypi.com/software/) to flash it with PI OS 64-bit.
 
-   Set (and remember) a hostname, username and password. The password **must** be the default "pi". Add your WiFi SSID (name) and password. Enable SSH through a password, and flash.
+   Set (and remember) a hostname, username and password. The username **must** be the default "pi". Add your WiFi SSID (name) and password. Enable SSH through a password, and flash.
    
 4. Insert the MicroSD into your Pi and power on. Use your router's admin page to find the Pi's IP address, or plug a keyboard and monitor into the Pi and run "hostname -I" to find its IP.
 
