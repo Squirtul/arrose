@@ -442,7 +442,7 @@ AIRPORT_POSITIONS = {
         "GND": ["ESMS_GND"],
         "TWR": ["ESMS_TWR"],
         "APP": ["ESMS_APP"],
-        "ACC": ["ESMM_CTR", "ESMM_K_CTR"],
+        "ACC": ["ESMM_CTR", "ESMM_K_CTR", "ESMM_7_CTR"],
     },
     "ESPA": {
         "DEL": [],
