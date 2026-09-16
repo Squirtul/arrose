@@ -56,7 +56,7 @@ Added airports and control positions are very limited by my own small-scale data
    The file transfer can fail randomly. Attempt at least 3 times before troubleshooting further.
 
 > [!NOTE]
-> The .bat installer will only run on **windows** machines, the .sh installer will run on all POSIX-compliant operating systems. If you run into issues, you can manually SCP the files onto the Pi and run installer.py to skip this process.
+> The .bat installer will only run on windows machines, the .sh installer will run on all POSIX-compliant operating systems. If you run into issues, you can manually SCP the files onto the Pi and run installer.py to skip this process.
 
 5. Once done, connect to the Pi through SSH from your computer by entering into cmd `ssh [username]@[ip]` and entering your password. You may need to enter `yes` to mark the device as trusted if it's your first time connecting.
 
