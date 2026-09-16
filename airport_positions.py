@@ -428,7 +428,7 @@ AIRPORT_POSITIONS = {
         "GND": ["EPGD_GND"],
         "TWR": ["EPGD_TWR"],
         "APP": ["EPGD_L_APP"],
-        "ACC": ["EPWW_CTR"],
+        "ACC": ["EPWW_CTR", "EPWW_N_CTR"],
     },
     "EPKK": {
         "DEL": [],
