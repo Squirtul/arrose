@@ -51,12 +51,12 @@ Added airports and control positions are very limited by my own small-scale data
    
 4. Insert the MicroSD into your Pi and power on. Use your router's admin page to find the Pi's IP address, or plug a keyboard and monitor into the Pi and run "hostname -I" to find its IP.
 
-   From your PC, run the file `installer.bat` and follow the steps given. The software will be set up for you.
+   From your PC, run the file `install.bat` if on Windows or `install.sh` if on Linux/Mac and follow the steps given. The software will be set up for you.
 
    The file transfer can fail randomly. Attempt at least 3 times before troubleshooting further.
 
 > [!NOTE]
-> The main installer will only run on **windows** machines. You can manually SCP the files onto the Pi and run installer.py to skip this process.
+> The .bat installer will only run on **windows** machines, the .sh installer will run on all POSIX-compliant operating systems. If you run into issues, you can manually SCP the files onto the Pi and run installer.py to skip this process.
 
 5. Once done, connect to the Pi through SSH from your computer by entering into cmd `ssh [username]@[ip]` and entering your password. You may need to enter `yes` to mark the device as trusted if it's your first time connecting.
 
