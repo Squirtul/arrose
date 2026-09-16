@@ -423,6 +423,13 @@ AIRPORT_POSITIONS = {
         "APP": ["ENZV_APP", "ENZV_A_APP"],
         "ACC": ["ENOR_CTR", "ENOR_S_CTR", "ENOR_SC_CTR", "ENSV_CTR"],
     },
+    "EPGD": {
+        "DEL": [],
+        "GND": ["EPGD_GND"],
+        "TWR": ["EPGD_TWR"],
+        "APP": ["EPGD_L_APP"],
+        "ACC": ["EPWW_CTR"],
+    },
     "EPKK": {
         "DEL": [],
         "GND": [],
