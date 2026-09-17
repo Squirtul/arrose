@@ -395,6 +395,13 @@ AIRPORT_POSITIONS = {
         "APP": ["EINN_APP"],
         "ACC": ["EISN_CTR"],
     },
+    "EKBI": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["EKBI_TWR"],
+        "APP": ["EKBI_APP"],
+        "ACC": ["EKDK_CTR", "EKDK_UN_CTR"],
+    },
     "EKCH": {
         "DEL": [],
         "GND": ["EKCH_A_GND", "EKCH_C_GND"],
@@ -408,6 +415,13 @@ AIRPORT_POSITIONS = {
         "TWR": ["EKVG_I_TWR"],
         "APP": [],
         "ACC": ["BIRD_S1_CTR"],
+    },
+    "EKYT": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["EKYT_TWR"],
+        "APP": ["EKYT_APP"],
+        "ACC": ["EKDK_CTR", "EKDK_UN_CTR"],
     },
     "ELLX": {
         "DEL": ["ELLX_DEL"],
