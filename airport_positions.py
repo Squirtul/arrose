@@ -612,6 +612,13 @@ AIRPORT_POSITIONS = {
         "APP": ["EWR_DEP", "EWR_A_APP", "EWR_P_APP", "EWR_H_APP", "NY_APP", "NY_T_APP", "NY_L_APP"],
         "ACC": ["NY_CTR"],
     },
+    "LATI": {
+        "DEL": [],
+        "GND": ["LATI_GND"],
+        "TWR": ["LATI_TWR"],
+        "APP": ["LATI_APP"],
+        "ACC": ["ADR_CTR", "ADR_E_CTR", "LAAA_CTR"],
+    },
     "LBSF": {
         "DEL": ["LBSF_DEL"],
         "GND": [],
@@ -652,6 +659,13 @@ AIRPORT_POSITIONS = {
         "GND": [],
         "TWR": ["LDSP_TWR"],
         "APP": ["LDSP_APP"],
+        "ACC": ["ADR_CTR", "ADR_W_CTR", "LDZO_CTR"],
+    },
+    "LDZA": {
+        "DEL": [],
+        "GND": ["LDZA_GND"],
+        "TWR": ["LDZA_TWR"],
+        "APP": ["LDZA_APP"],
         "ACC": ["ADR_CTR", "ADR_W_CTR", "LDZO_CTR"],
     },
     "LEMD": {
