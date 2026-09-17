@@ -938,7 +938,7 @@ AIRPORT_POSITIONS = {
         "DEL": [],
         "GND": ["OJAI_GND"],
         "TWR": ["OJAI_TWR"],
-        "APP": ["OJAI_APP"],
+        "APP": ["OJAI_APP", "AMM_APP"],
         "ACC": ["OJAC_CTR"],
     },
     "OKKK": {
@@ -959,8 +959,15 @@ AIRPORT_POSITIONS = {
         "DEL": ["OMDB_DEL", "OMDB_P_DEL"],
         "GND": ["OMDB_1_GND", "OMDB_2_GND", "OMDB_P_GND"],
         "TWR": ["OMDB_1_TWR"],
-        "APP": ["OMDB_APP"],
+        "APP": ["OMDB_APP", "OMDB_F_APP"],
         "ACC": ["OMAE_1_CTR"],
+    },
+    "OTHH": {
+        "DEL": ["OTHH_DEL],
+        "GND": ["OTHH_1_GND"],
+        "TWR": ["OTHH_1_TWR"],
+        "APP": ["DOH_A1_APP", "DOH_R1_APP"],
+        "ACC": [],
     },
     "OPKC": {
         "DEL": [],
