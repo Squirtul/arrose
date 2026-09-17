@@ -206,6 +206,13 @@ AIRPORT_POSITIONS = {
         "APP": ["EFHK_E_APP", "EFHK_R_APP", "EFHK_W_APP", "EFHK_A_APP"],
         "ACC": ["EFIN_D_CTR", "EFIN_M_CTR", "EFIN_F_CTR"],
     },
+    "EFKI": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["EFKI_I_TWR"],
+        "APP": [],
+        "ACC": ["EFIN_D_CTR", "EFIN_M_CTR"],
+    },
     "EFRO": {
         "DEL": ["EFRO_DEL"],
         "GND": [],
