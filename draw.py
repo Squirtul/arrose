@@ -199,6 +199,19 @@ def draw_grid(grid, category_counts=None):
     # put optional text here ^
 
     output = os.path.join(os.getcwd(), "vatsim.png")
-    img.save(output) # save image
-
+    web_output = os.path.join(
+        os.path.dirname(os.path.abspath(__file__)),
+        "web",
+        "vatsim.png"
+    )
+    web_temp = web_output + ".tmp"
+    
+    # Save the original image for the Pi display
+    img.save(output)
+    
+    # Save web copy to a temporary file, then atomically replace the old one
+    img.save(web_temp)
+    os.replace(web_temp, web_output)
+    
     print("Saved to ", output)
+    print("Saved web copy to ", web_output)
