@@ -479,6 +479,13 @@ AIRPORT_POSITIONS = {
         "APP": ["EPKK_APP"],
         "ACC": ["EPWW_CTR", "EPWW_ST_CTR"],
     },
+    "EPWA": {
+        "DEL": ["EPWA_DEL"],
+        "GND": ["EPWA_GND"],
+        "TWR": ["EPWA_TWR"],
+        "APP": ["EPWA_APP"],
+        "ACC": ["EPWW_CTR"],
+    },
     "ESGG": {
         "DEL": ["ESGG_DEL"],
         "GND": ["ESGG_GND"],
@@ -1010,6 +1017,13 @@ AIRPORT_POSITIONS = {
         "TWR": ["RPLL_TWR"],
         "APP": ["RPLL_APP", "RPLL_F_APP"],
         "ACC": ["MNL_CTR"],
+    },
+    "SPJC": {
+        "DEL": [],
+        "GND": [],
+        "TWR": [],
+        "APP": ["SPJC_APP"],
+        "ACC": ["LIM_CTR"],
     },
     "UKDD": {
         "DEL": [],
