@@ -1065,7 +1065,7 @@ AIRPORT_POSITIONS = {
         "GND": [],
         "TWR": ["ZSAM_TWR"],
         "APP": ["ZSAM_APP"],
-        "ACC": ["ZSAM_CTR"],
+        "ACC": ["ZSSS_CTR"],
     },
     "ZSPD": {
         "DEL": ["ZSPD_DEL"],
