@@ -180,7 +180,7 @@ AIRPORT_POSITIONS = {
     },
     "EDLW": {
         "DEL": [],
-        "GND": ["EDLW_GND],
+        "GND": ["EDLW_GND"],
         "TWR": ["EDLW_TWR"],
         "APP": [],
         "ACC": ["EDGG_NH_CTR", "EDGG_N_CTR"],
