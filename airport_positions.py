@@ -119,7 +119,7 @@ AIRPORT_POSITIONS = {
         "DEL": ["EDDM_DEL"],
         "GND": ["EDDM_N_GND", "EDDM_S_GND", "EDDM_1_GND", "EDDM_2_GND"],
         "TWR": ["EDDM_N_TWR", "EDDM_S_TWR"],
-        "APP": ["EDDM_ND_APP", "EDDM_NL_APP", "EDDM_NH_APP", "EDDM_NX_APP", "EDDM_SD_APP", "EDDM_SH_APP"],
+        "APP": ["EDDM_ND_APP", "EDDM_NF_APP", "EDDM_NL_APP", "EDDM_NH_APP", "EDDM_NX_APP", "EDDM_SD_APP", "EDDM_SG_APP", "EDDM_SH_APP", "EDDM_SL_APP"],
         "ACC": ["EDMM_ALB_CTR", "EDMM_NDG_CTR", "EDMM_STA_CTR", "EDMM_ZUG_CTR"],
     },
     "EDDN": {
@@ -498,7 +498,7 @@ AIRPORT_POSITIONS = {
         "GND": [],
         "TWR": ["EPKK_TWR"],
         "APP": ["EPKK_APP"],
-        "ACC": ["EPWW_CTR", "EPWW_ST_CTR"],
+        "ACC": ["EPWW_CTR", "EPWW_S_CTR", "EPWW_ST_CTR"],
     },
     "EPWA": {
         "DEL": ["EPWA_DEL"],
@@ -904,7 +904,7 @@ AIRPORT_POSITIONS = {
         "GND": ["LOWW_GND"],
         "TWR": ["LOWW_TWR"],
         "APP": ["LOWW_APP", "LOWW_F_APP"],
-        "ACC": ["LOVV_CTR", "LOVV_E_CTR", "LOVV_C_CTR", "LOVV_N_CTR"],
+        "ACC": ["LOVV_CTR", "LOVV_E_CTR", "LOVV_C_CTR", "LOVV_N_CTR", "LOVV_S_CTR"],
     },
     "LPPR": {
         "DEL": ["LPPR_DEL"],
@@ -918,7 +918,7 @@ AIRPORT_POSITIONS = {
         "GND": ["LPPT_GND"],
         "TWR": ["LPPT_TWR"],
         "APP": ["LPPT_APP"],
-        "ACC": ["LPPC_CTR"],
+        "ACC": ["LPPC_CTR", "LPPC_E_CTR"],
     },
     "LRIA": {
         "DEL": [],
