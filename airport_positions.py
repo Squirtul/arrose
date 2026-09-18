@@ -612,6 +612,13 @@ AIRPORT_POSITIONS = {
         "APP": ["MIA_D_DEP"],
         "ACC": ["MIA_06_CTR", "MIA_N_CTR"],
     },
+    "KGRR": {
+        "DEL": [],
+        "GND": [],
+        "TWR": [],
+        "APP": ["AZO_G_APP"],
+        "ACC": ["CHI_35_CTR"],
+    },
     "KLGA": {
         "DEL": ["LGA_DEL"],
         "GND": ["LGA_GND"],
