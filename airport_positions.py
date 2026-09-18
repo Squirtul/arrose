@@ -724,6 +724,13 @@ AIRPORT_POSITIONS = {
         "APP": [],
         "ACC": ["LECM_CTR"],
     },
+    "LEST": {
+        "DEL": [],
+        "GND": ["LEST_GND"],
+        "TWR": ["LEST_TWR"],
+        "APP": ["LECG_APP"],
+        "ACC": ["LECM_CTR", "LECM_SAS_CTR"],
+    },
     "LFKJ": {
         "DEL": [],
         "GND": [],
