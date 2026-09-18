@@ -809,11 +809,11 @@ AIRPORT_POSITIONS = {
         "ACC": ["LIRR_EW1_CTR", "LIRR_EW2_CTR", "LIRR_SU1_CTR"],
     },
     "LIMC": {
-        "DEL": [],
-        "GND": [],
-        "TWR": [],
+        "DEL": ["LIMC_DEL"],
+        "GND": ["LIMC_W_GND"],
+        "TWR": ["LIMC_TWR"],
         "APP": ["LIMM_ANE_APP"],
-        "ACC": [],
+        "ACC": ["LIMM_WS2_CTR"],
     },
     "LIME": {
         "DEL": [],
