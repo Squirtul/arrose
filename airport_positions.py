@@ -610,7 +610,7 @@ AIRPORT_POSITIONS = {
         "GND": ["FLL_N_GND"],
         "TWR": ["FLL_N_TWR"],
         "APP": ["MIA_D_DEP"],
-        "ACC": ["MIA_06_CTR", "MIA_N_CTR"],
+        "ACC": ["MIA_06_CTR", "MIA_061_CTR", "MIA_N_CTR"],
     },
     "KGRR": {
         "DEL": [],
@@ -632,6 +632,13 @@ AIRPORT_POSITIONS = {
         "TWR": ["MEM_2_TWR"],
         "APP": ["MEM_E_APP"],
         "ACC": ["MEM_22_CTR"],
+    },
+    "KMIA": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["MIA_N_TWR"],
+        "APP": ["MIA_D_DEP"],
+        "ACC": ["MIA_06_CTR", "MIA_061_CTR", "MIA_N_CTR"],
     },
     "KORD": {
         "DEL": [],
