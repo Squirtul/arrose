@@ -775,10 +775,10 @@ AIRPORT_POSITIONS = {
     },
     "LFPG": {
         "DEL": ["LFPG_DEL"],
-        "GND": ["LFPG_N_GND"],
-        "TWR": [],
-        "APP": ["LFPG_N_APP"],
-        "ACC": ["PAR_CTR", "PAR_LOW_CTR"],
+        "GND": ["LFPG_RMP", "LFPG_N_GND", "LFPG_SW_GND"],
+        "TWR": ["LFPG_N_TWR", "LFPG_S_TWR"],
+        "APP": ["LFPG_APP", "LFPG_DEP", "LFPG_N_DEP", "LFPG_S_DEP", "LFPG_F_APP", "LFPG_FS_APP", "LFPG_FN_APP", "LFPG_N_APP"],
+        "ACC": ["PAR_CTR", "PAR_LOW_CTR", "PAR_RPAE_CTR"],
     },
     "LFPO": {
         "DEL": [],
