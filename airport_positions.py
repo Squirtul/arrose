@@ -173,7 +173,7 @@ AIRPORT_POSITIONS = {
     },
     "EDJA": {
         "DEL": [],
-        "GND": [],
+        "GND": ["EDJA_GND"],
         "TWR": ["EDJA_TWR"],
         "APP": ["EDJA_APP"],
         "ACC": ["EDMM_STA_CTR", "EDMM_ZUG_CTR"],
