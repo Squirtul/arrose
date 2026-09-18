@@ -703,6 +703,13 @@ AIRPORT_POSITIONS = {
         "APP": ["LDZA_APP"],
         "ACC": ["ADR_CTR", "ADR_W_CTR", "LDZO_CTR"],
     },
+    "LECO": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["LECO_TWR"],
+        "APP": ["LECG_APP"],
+        "ACC": ["LECM_CTR", "LECM_SAS_CTR"],
+    },
     "LEMD": {
         "DEL": ["LEMD_DEL"],
         "GND": ["LEMD_GND"],
@@ -728,6 +735,13 @@ AIRPORT_POSITIONS = {
         "DEL": [],
         "GND": ["LEST_GND"],
         "TWR": ["LEST_TWR"],
+        "APP": ["LECG_APP"],
+        "ACC": ["LECM_CTR", "LECM_SAS_CTR"],
+    },
+    "LEVX": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["LEVX_TWR"],
         "APP": ["LECG_APP"],
         "ACC": ["LECM_CTR", "LECM_SAS_CTR"],
     },
