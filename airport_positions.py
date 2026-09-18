@@ -593,10 +593,10 @@ AIRPORT_POSITIONS = {
     },
     "KBOS": {
         "DEL": ["BOS_DEL"],
-        "GND": ["BOS_GND"],
-        "TWR": ["BOS_TWR"],
-        "APP": ["BOS_APP"],
-        "ACC": ["BOS_1_CTR"],
+        "GND": ["BOS_GND", "BOS_D_GND"],
+        "TWR": ["BOS_TWR", "BOS_1_TWR"],
+        "APP": ["BOS_APP", "BOS_1_APP", "BOS_2_APP", "BOS_3_APP"],
+        "ACC": ["BOS_1_CTR", "BOS_2_CTR", "BOS_3_CTR"],
     },
     "KEVV": {
         "DEL": ["EVV_DEL"],
@@ -607,9 +607,9 @@ AIRPORT_POSITIONS = {
     },
     "KEWR": {
         "DEL": ["EWR_DEL"],
-        "GND": ["EWR_GND"],
+        "GND": ["EWR_GND", "EWR_RMP"],
         "TWR": ["EWR_TWR"],
-        "APP": ["EWR_DEP", "EWR_A_APP", "EWR_P_APP", "EWR_H_APP", "NY_APP", "NY_T_APP", "NY_L_APP"],
+        "APP": ["EWR_DEP", "EWR_A_APP", "EWR_P_APP", "EWR_H_APP", "NY_APP", "NY_T_APP", "NY_L_APP", "NY_T1_APP", "NY_T2_APP"],
         "ACC": ["NY_CTR"],
     },
     "KFLL": {
@@ -626,12 +626,19 @@ AIRPORT_POSITIONS = {
         "APP": ["AZO_G_APP"],
         "ACC": ["CHI_35_CTR"],
     },
+    "KJFK": {
+        "DEL": ["JFK_DEL"],
+        "GND": ["JFK_GND", "JFK_E_RMP", "JFK_W_RMP"],
+        "TWR": ["JFK_1_TWR"],
+        "APP": ["JFK_A_APP", "JFK_G_APP", "JFK_K_APP", "JFK_DEP", "NY_L_APP", "NY_T1_APP", "NY_T_APP", "NY_T2_APP"],
+        "ACC": ["NY_A_CTR", "NY_CTR", "NY_F_CTR"],
+    },
     "KLGA": {
         "DEL": ["LGA_DEL"],
         "GND": ["LGA_GND"],
         "TWR": ["LGA_TWR"],
-        "APP": ["NY_APP", "NY_T_APP", "NY_L_APP"],
-        "ACC": ["NY_CTR"],
+        "APP": ["NY_APP", "NY_T_APP", "NY_L_APP", "LGA_DEP", "LGA_V_APP", "LGA_D_APP", "NY_T1_APP", "NY_T_APP", "NY_T2_APP"],
+        "ACC": ["NY_CTR", "NY_F_CTR", "NY_A_CTR"],
     },
     "KMEM": {
         "DEL": [],
@@ -653,6 +660,13 @@ AIRPORT_POSITIONS = {
         "TWR": ["ORD_S_TWR", "ORD_S1_TWR"],
         "APP": ["CHI_Z_APP"],
         "ACC": ["CHI_35_CTR"],
+    },
+    "KPVD": {
+        "DEL": ["PVD_DEL"],
+        "GND": ["PVD_GND"],
+        "TWR": ["PVD_TWR"],
+        "APP": ["PVD_APP"],
+        "ACC": ["BOS_1_CTR", "BOS_2_CTR", "BOS_3_CTR"],
     },
     "KTEB": {
         "DEL": ["TEB_DEL"],
