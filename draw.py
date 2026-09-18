@@ -210,7 +210,7 @@ def draw_grid(grid, category_counts=None):
     img.save(output)
     
     # Save web copy to a temporary file, then atomically replace the old one
-    img.save(web_temp)
+    img.save(web_temp, format="PNG")
     os.replace(web_temp, web_output)
     
     print("Saved to ", output)
