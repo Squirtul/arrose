@@ -1019,7 +1019,7 @@ AIRPORT_POSITIONS = {
         "ACC": ["OMAE_1_CTR"],
     },
     "OTHH": {
-        "DEL": ["OTHH_DEL],
+        "DEL": ["OTHH_DEL"],
         "GND": ["OTHH_1_GND"],
         "TWR": ["OTHH_1_TWR"],
         "APP": ["DOH_A1_APP", "DOH_R1_APP"],
