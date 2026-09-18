@@ -24,6 +24,13 @@ AIRPORT_POSITIONS = {
         "APP": ["BIRK_APP"],
         "ACC": ["BIRD_S1_CTR"],
     },
+    "CYVR": {
+        "DEL": [],
+        "GND": [],
+        "TWR": [],
+        "APP": ["CYVR_APP"],
+        "ACC": ["CZVR_CTR"],
+    },
     "CYWG": {
         "DEL": ["CYWG_DEL"],
         "GND": ["CYWG_GND"],
@@ -591,6 +598,13 @@ AIRPORT_POSITIONS = {
         "APP": ["BHM_APP"],
         "ACC": ["ATL_1_CTR"],
     },
+    "KBOI": {
+        "DEL": [],
+        "GND": ["BOI_GND"],
+        "TWR": ["BOI_TWR"],
+        "APP": ["BOI_A_APP", "BOI_G_APP"],
+        "ACC": ["SLC_442_CTR"],
+    },
     "KBOS": {
         "DEL": ["BOS_DEL"],
         "GND": ["BOS_GND", "BOS_D_GND"],
@@ -667,6 +681,20 @@ AIRPORT_POSITIONS = {
         "TWR": ["PVD_TWR"],
         "APP": ["PVD_APP"],
         "ACC": ["BOS_1_CTR", "BOS_2_CTR", "BOS_3_CTR"],
+    },
+    "KSEA": {
+        "DEL": ["SEA_DEL"],
+        "GND": ["SEA_GND", "SEA_N_RMP", "SEA_S_RMP"],
+        "TWR": ["SEA_E_TWR"],
+        "APP": ["SEA_F_APP", "SEA_Y_DEP", "SEA_W_APP"],
+        "ACC": ["SEA_16_CTR", "SEA_42_CTR"],
+    },
+    "KSFO": {
+        "DEL": [],
+        "GND": ["SFO_GND"],
+        "TWR": ["SFO_TWR"],
+        "APP": ["SFO_DEP", "NCT_APP"],
+        "ACC": ["OAK_62_CTR"],
     },
     "KTEB": {
         "DEL": ["TEB_DEL"],
