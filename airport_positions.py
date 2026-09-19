@@ -101,6 +101,13 @@ AIRPORT_POSITIONS = {
         "APP": ["EDDB_S_APP"],
         "ACC": ["EDWW_CTR", "EDWW_MAR_CTR"],
     },
+    "EDDC": {
+        "DEL": [],
+        "GND": ["EDDC_GND"],
+        "TWR": ["EDDC_TWR"],
+        "APP": [],
+        "ACC": ["EDMM_HOF_CTR"],
+    },
     "EDDF": {
         "DEL": ["EDDF_DEL", "EDDF_1_DEL", "EDDF_CO_DEL"],
         "GND": ["EDDF_C_GND", "EDDF_E_GND", "EDDF_W_GND", "EDDF_S_GND"],
@@ -148,14 +155,14 @@ AIRPORT_POSITIONS = {
         "GND": ["EDDN_GND"],
         "TWR": ["EDDN_TWR"],
         "APP": ["EDDN_D_APP", "EDDN_FRK_APP"],
-        "ACC": ["EDMM_BBG_CTR", "EDMM_RDG_CTR"],
+        "ACC": ["EDMM_BBG_CTR", "EDMM_HOF_CTR", "EDMM_RDG_CTR"],
     },
     "EDDP": {
         "DEL": ["EDDP_DEL"],
         "GND": ["EDDP_GND"],
         "TWR": ["EDDP_N_TWR", "EDDP_S_TWR"],
         "APP": ["EDDP_TRN_APP", "EDDP_TRS_APP", "EDDP_SD_APP"],
-        "ACC": ["EDMM_BBG_CTR", "EDMM_GER_CTR", "EDMM_MEI_CTR"],
+        "ACC": ["EDMM_BBG_CTR", "EDMM_GER_CTR", "EDMM_HOF_CTR", "EDMM_MEI_CTR"],
     },
     "EDDR": {
         "DEL": [],
