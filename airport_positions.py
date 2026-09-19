@@ -106,7 +106,7 @@ AIRPORT_POSITIONS = {
         "GND": ["EDDC_GND"],
         "TWR": ["EDDC_TWR"],
         "APP": [],
-        "ACC": ["EDMM_HOF_CTR"],
+        "ACC": ["EDMM_GER_CTR", "EDMM_HOF_CTR"],
     },
     "EDDF": {
         "DEL": ["EDDF_DEL", "EDDF_1_DEL", "EDDF_CO_DEL"],
