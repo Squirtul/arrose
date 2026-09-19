@@ -604,6 +604,13 @@ AIRPORT_POSITIONS = {
         "APP": ["FACT_APP"],
         "ACC": ["FACA_CTR", "FASA_CTR"],
     },
+    "FALE": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["FALE_TWR"],
+        "APP": ["FALE_APP"],
+        "ACC": ["FAJA_CTR", "FASA_CTR"],
+    },
     "FAOR": {
         "DEL": [],
         "GND": [],
