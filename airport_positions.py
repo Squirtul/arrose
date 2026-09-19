@@ -911,7 +911,7 @@ AIRPORT_POSITIONS = {
         "GND": [],
         "TWR": ["LGKO_TWR"],
         "APP": ["LGKO_APP"],
-        "ACC": ["LGGG_CTR"],
+        "ACC": ["LGGG_CTR", "LGGG_RDS_CTR"],
     },
     "LGKR": {
         "DEL": [],
