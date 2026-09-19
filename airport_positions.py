@@ -1044,13 +1044,13 @@ AIRPORT_POSITIONS = {
         "GND": ["LPPR_GND"],
         "TWR": ["LPPR_TWR"],
         "APP": ["LPPR_APP"],
-        "ACC": ["LPPC_CTR", "LPPC_E_CTR"],
+        "ACC": ["LPPC_CTR", "LPPC_E_CTR", "LPPC_N_CTR"],
     },
     "LPPT": {
         "DEL": ["LPPT_DEL"],
         "GND": ["LPPT_GND"],
         "TWR": ["LPPT_TWR"],
-        "APP": ["LPPT_APP"],
+        "APP": ["LPPT_APP", "LPPT_W_APP", "LPPT_F_APP"],
         "ACC": ["LPPC_CTR", "LPPC_E_CTR"],
     },
     "LRIA": {
