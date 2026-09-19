@@ -175,6 +175,7 @@ AIRPORTS = {
     "VHHH": (22.314991, 113.912052),
     "VOBL": (13.198160, 77.709202),
     "VVTS": (10.819197, 106.654879),
+    "YSSY": (-33.943520, 151.178721),
     "ZSAM": (24.544586, 118.130681),
     "ZSPD": (31.142671, 121.805408),
 }
@@ -356,6 +357,7 @@ AIRPORT_NAMES = {
     "VHHH": "Hong Kong",
     "VOBL": "Bengaluru",
     "VVTS": "Hồ Chí Minh",
+    "YSSY": "Sydney",
     "ZSAM": "Xiamen",
     "ZSPD": "Shanghai",
 }
