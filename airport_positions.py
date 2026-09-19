@@ -199,6 +199,13 @@ AIRPORT_POSITIONS = {
         "APP": ["EDDR_PFA_APP", "EDFH_EIF_APP"],
         "ACC": ["EDGG_C_CTR", "EDGG_CS_CTR", "EDGG_RUD_CTR"],
     },
+    "EDHL": {
+        "DEL": [],
+        "GND": ["EDHL_GND"],
+        "TWR": ["EDHL_TWR"],
+        "APP": ["EDDH_APP"],
+        "ACC": ["EDWW_CTR", "EDWW_W_CTR", "EDWW_ALR_CTR"],
+    },
     "EDJA": {
         "DEL": [],
         "GND": ["EDJA_GND"],
@@ -212,6 +219,13 @@ AIRPORT_POSITIONS = {
         "TWR": ["EDLP_TWR"],
         "APP": [],
         "ACC": ["EDGG_NH_CTR", "EDGG_N_CTR"],
+    },
+    "EDLV": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["EDLV_TWR"],
+        "APP": ["EDDL_APP"],
+        "ACC": ["EDGG_NH_CTR", "EDGG_N_CTR", "EDGG_BB_CTR"],
     },
     "EDLW": {
         "DEL": [],
