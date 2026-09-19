@@ -92,7 +92,7 @@ AIRPORT_POSITIONS = {
         "GND": [],
         "TWR": ["EDAH_TWR"],
         "APP": [],
-        "ACC": ["EDWW_CTR"],
+        "ACC": ["EDWW_CTR", "EDWW_MAR_CTR"],
     },
     "EDDB": {
         "DEL": [],
