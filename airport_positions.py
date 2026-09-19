@@ -612,8 +612,8 @@ AIRPORT_POSITIONS = {
         "ACC": ["EYVL_CTR"],
     },
     "FACT": {
-        "DEL": [],
-        "GND": [],
+        "DEL": ["FACT_DEL"],
+        "GND": ["FACT_GND"],
         "TWR": ["FACT_TWR"],
         "APP": ["FACT_APP"],
         "ACC": ["FACA_CTR", "FASA_CTR"],
