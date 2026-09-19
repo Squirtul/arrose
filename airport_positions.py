@@ -1263,6 +1263,13 @@ AIRPORT_POSITIONS = {
         "APP": ["UKDD_APP"],
         "ACC": ["UKR_CTR"],
     },
+    "UKHH": {
+        "DEL": [],
+        "GND": ["UKHH_GND"],
+        "TWR": ["UKHH_TWR"],
+        "APP": ["UKHH_APP"],
+        "ACC": ["UKR_CTR"],
+    },
     "UKLL": {
         "DEL": [],
         "GND": [],
