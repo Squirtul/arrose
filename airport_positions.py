@@ -212,6 +212,7 @@ AIRPORT_POSITIONS = {
         "TWR": ["EDLP_TWR"],
         "APP": [],
         "ACC": ["EDGG_NH_CTR", "EDGG_N_CTR"],
+    },
     "EDLW": {
         "DEL": [],
         "GND": ["EDLW_GND"],
