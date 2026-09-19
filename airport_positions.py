@@ -1186,6 +1186,20 @@ AIRPORT_POSITIONS = {
         "APP": ["LZKZ_APP"],
         "ACC": ["LZBB_CTR"],
     },
+    "MMMX": {
+        "DEL": [],
+        "GND": ["MMMX_GND"],
+        "TWR": ["MMMX_TWR"],
+        "APP": ["MMMX_APP"],
+        "ACC": ["MMFR_FSS"],
+    },
+    "MMUN": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["MMUN_TWR"],
+        "APP": ["MMUN_APP"],
+        "ACC": ["MMID_CTR", "MMFR_FSS"],
+    },
     "OBBI": {
         "DEL": ["OBBI_DEL"],
         "GND": ["OBBI_GND"],
@@ -1262,6 +1276,13 @@ AIRPORT_POSITIONS = {
         "TWR": ["RPLL_TWR"],
         "APP": ["RPLL_APP", "RPLL_F_APP"],
         "ACC": ["MNL_CTR", "MNL_C_CTR"],
+    },
+    "SKBO": {
+        "DEL": [],
+        "GND": ["SKBO_N_GND", "SKBO_S_GND"],
+        "TWR": ["SKBO_TWR"],
+        "APP": ["SKBO_APP"],
+        "ACC": ["SKED_CTR"],
     },
     "SPJC": {
         "DEL": [],
