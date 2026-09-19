@@ -1073,26 +1073,33 @@ AIRPORT_POSITIONS = {
         "APP": [],
         "ACC": ["LSAZ_CTR"],
     },
+    "LTAC": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["LTAC_TWR"],
+        "APP": ["LTAC_APP"],
+        "ACC": ["ANK_CTR"],
+    },
     "LTBS": {
         "DEL": [],
         "GND": ["LTBS_GND"],
         "TWR": [],
         "APP": ["LTBS_APP", "LTBS_S_APP"],
-        "ACC": ["ANK_WS_CTR", "ANK_W78_CTR"]
+        "ACC": ["ANK_CTR", "ANK_WS_CTR", "ANK_W78_CTR"]
     },
     "LTFE": {
         "DEL": [],
         "GND": ["LTFE_GND"],
         "TWR": ["LTFE_TWR"],
         "APP": ["LTFE_APP"],
-        "ACC": ["ANK_WS_CTR", "ANK_W78_CTR"]
+        "ACC": ["ANK_CTR", "ANK_WS_CTR", "ANK_W78_CTR"]
     },
     "LTFM": {
         "DEL": [],
         "GND": ["LTFM_W_GND"],
         "TWR": ["LTFM_C_TWR"],
         "APP": ["IST_W_APP"],
-        "ACC": ["ANK_W78_CTR"],
+        "ACC": ["ANK_CTR", "ANK_W78_CTR"],
     },
     "LUKK": {
         "DEL": [],
