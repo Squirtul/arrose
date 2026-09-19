@@ -1213,6 +1213,13 @@ AIRPORT_POSITIONS = {
         "APP": ["SPJC_APP"],
         "ACC": ["LIM_CTR"],
     },
+    "UHHH": {
+        "DEL": [],
+        "GND": ["UHHH_GND"],
+        "TWR": ["UHHH_TWR"],
+        "APP": ["UHHH_APP"],
+        "ACC": ["UHHH_CTR"],
+    },
     "UKDD": {
         "DEL": [],
         "GND": [],
@@ -1268,6 +1275,13 @@ AIRPORT_POSITIONS = {
         "TWR": ["SY_TWR"],
         "APP": ["SY_APP"],
         "ACC": ["ML-GUN_CTR"],
+    },
+    "ZSHC": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["ZSHC_TWR"],
+        "APP": ["ZSHC_APP"],
+        "ACC": ["ZSSS_CTR"],
     },
     "ZSAM": {
         "DEL": [],
