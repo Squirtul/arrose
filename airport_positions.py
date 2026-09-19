@@ -1239,7 +1239,7 @@ AIRPORT_POSITIONS = {
         "GND": [],
         "TWR": ["VVTS_TWR"],
         "APP": ["VVTS_APP", "VVTS_F_APP"],
-        "ACC": ["VCL_CTR"],
+        "ACC": ["VCL_CTR", "VVHM_CTR"],
     },
     "YSSY": {
         "DEL": ["SY_DEL"],
