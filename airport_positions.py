@@ -1200,12 +1200,26 @@ AIRPORT_POSITIONS = {
         "APP": [],
         "ACC": ["OPKR_CTR"],
     },
+    "RCTP": {
+        "DEL": ["RCTP_DEL"],
+        "GND": ["RCTP_N_GND"],
+        "TWR": ["RCTP_O_TWR"],
+        "APP": ["RCTP_O_APP"],
+        "ACC": ["TPE_E_CTR", "TPE_W_CTR"],
+    },
+    "RJTT": {
+        "DEL": [],
+        "GND": ["RJTT_GND"],
+        "TWR": ["RJTT_TWR"],
+        "APP": ["RJTT_APP"],
+        "ACC": ["RJTG_Y_CTR"],
+    },
     "RPLL": {
         "DEL": ["RPLL_DEL"],
         "GND": ["RPLL_GND"],
         "TWR": ["RPLL_TWR"],
         "APP": ["RPLL_APP", "RPLL_F_APP"],
-        "ACC": ["MNL_CTR"],
+        "ACC": ["MNL_CTR", "MNL_C_CTR"],
     },
     "SPJC": {
         "DEL": [],
@@ -1295,7 +1309,14 @@ AIRPORT_POSITIONS = {
         "DEL": ["ZSPD_DEL"],
         "GND": ["ZSPD_A_GND", "ZSPD_AS_GND"],
         "TWR": ["ZSPD_TWR"],
-        "APP": ["ZSSS_APP", "ZSSS_PF_APP", "ZSSS_W_APP"],
+        "APP": ["ZSSS_APP", "ZSSS_W_APP"],
+        "ACC": ["ZSSS_CTR"],
+    },
+    "ZSSS": {
+        "DEL": ["ZSSS_DEL"],
+        "GND": ["ZSSS_RMP"],
+        "TWR": ["ZSSS_TWR"],
+        "APP": ["ZSSS_APP", "ZSSS_F_APP"],
         "ACC": ["ZSSS_CTR"],
     },
 }
