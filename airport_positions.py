@@ -1130,6 +1130,13 @@ AIRPORT_POSITIONS = {
         "APP": ["LUKK_APP"],
         "ACC": ["LUUU_CTR", "LRBB_CTR"],
     },
+    "LWSK": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["LWSK_TWR"],
+        "APP": ["LWSK_APP"],
+        "ACC": ["LWSS_CTR", "ADR_E_CTR", "ADR_CTR"],
+    },
     "LXGB": {
         "DEL": [],
         "GND": [],
