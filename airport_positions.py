@@ -1241,6 +1241,13 @@ AIRPORT_POSITIONS = {
         "APP": ["VVTS_APP", "VVTS_F_APP"],
         "ACC": ["VCL_CTR"],
     },
+    "YSSY": {
+        "DEL": ["SY_DEL"],
+        "GND": ["SY_GND"],
+        "TWR": ["SY_TWR"],
+        "APP": ["SY_APP"],
+        "ACC": ["ML-GUN_CTR"],
+    },
     "ZSAM": {
         "DEL": [],
         "GND": [],
