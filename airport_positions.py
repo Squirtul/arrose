@@ -1270,6 +1270,27 @@ AIRPORT_POSITIONS = {
         "APP": ["UKLL_APP"],
         "ACC": ["UKR_CTR"],
     },
+    "UUDD": {
+        "DEL": ["UUDD_DEL"],
+        "GND": ["UUDD_GND"],
+        "TWR": ["UUDD_TWR"],
+        "APP": ["UUDD_APP", "MSK_APP"],
+        "ACC": ["UUWV_CTR"],
+    },
+    "USSS": {
+        "DEL": [],
+        "GND": ["USSS_GND"],
+        "TWR": ["USSS_TWR"],
+        "APP": ["USSS_APP", "USSS_R_APP"],
+        "ACC": ["USSV_CTR"],
+    },
+    "UWWW": {
+        "DEL": [],
+        "GND": ["UWWW_GND"],
+        "TWR": ["UWWW_TWR"],
+        "APP": ["UWWW_APP"],
+        "ACC": ["UWWW_CTR"],
+    },
     "VCBI": {
         "DEL": ["VCBI_DEL"],
         "GND": ["VCBI_GND"],
