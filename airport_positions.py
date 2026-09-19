@@ -726,7 +726,7 @@ AIRPORT_POSITIONS = {
     },
     "KLAX": {
         "DEL": [],
-        "GND": [],
+        "GND": ["LAX_S1_GND"],
         "TWR": ["LAX_S_TWR"],
         "APP": ["LAX_S_DEP", "SCT_APP"],
         "ACC": ["LAX_25_CTR"],
