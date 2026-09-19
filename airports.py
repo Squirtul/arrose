@@ -171,6 +171,7 @@ AIRPORTS = {
     "OTHH": (25.272591, 51.609079),
     "RPLL": (14.509510, 121.014093),
     "SPJC": (-12.023114, -77.118590),
+    "UHHH": (48.526009, 135.184957),
     "UKDD": (48.359205, 35.099396),
     "UKLL": (49.810207, 23.959633),
     "VCBI": (7.176956, 79.881706),
@@ -180,6 +181,7 @@ AIRPORTS = {
     "VVTS": (10.819197, 106.654879),
     "YSSY": (-33.943520, 151.178721),
     "ZSAM": (24.544586, 118.130681),
+    "ZSHC": (30.236434, 120.429131),
     "ZSPD": (31.142671, 121.805408),
 }
 AIRPORT_NAMES = {
@@ -356,6 +358,7 @@ AIRPORT_NAMES = {
     "OTHH": "Doha Hamad",
     "RPLL": "Manila",
     "SPJC": "Lima",
+    "UHHH": "Khabarovsk",
     "UKDD": "Dnipro",
     "UKLL": "Lviv",
     "VCBI": "Colombo",
@@ -365,5 +368,6 @@ AIRPORT_NAMES = {
     "VVTS": "Hồ Chí Minh",
     "YSSY": "Sydney",
     "ZSAM": "Xiamen",
+    "ZSHC": "Hangzhou",
     "ZSPD": "Shanghai",
 }
