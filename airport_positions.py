@@ -87,6 +87,13 @@ AIRPORT_POSITIONS = {
         "APP": ["EBOS_APP"],
         "ACC": ["EBBU_E_CTR", "EBBU_W_CTR", "EBBU_LOW_CTR"],
     },
+    "EDAH": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["EDAH_TWR"],
+        "APP": [],
+        "ACC": ["EDWW_CTR"],
+    },
     "EDDB": {
         "DEL": [],
         "GND": [],
