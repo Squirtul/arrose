@@ -294,7 +294,7 @@ AIRPORT_POSITIONS = {
         "GND": ["EGGW_GND"],
         "TWR": ["EGGW_TWR"],
         "APP": ["EGGW_APP", "ESSEX_APP"],
-        "ACC": ["LON_CTR", "LON_C_CTR", "LON_M_CTR", "LON_SC_CTR"],
+        "ACC": ["LON_CTR", "LON_C_CTR", "LON_M_CTR", "LON_SC_CTR", "LTC_CTR", "LTC_N_CTR"],
     },
     "EGJJ": {
         "DEL": [],
@@ -308,21 +308,21 @@ AIRPORT_POSITIONS = {
         "GND": [],
         "TWR": ["EGKB_TWR"],
         "APP": ["EGKB_A_APP", "THAMES_APP", "EGLC_APP"],
-        "ACC": ["LON_CTR", "LON_S_CTR", "LON_SC_CTR", "LTC_S_CTR", "LTC_SW_CTR"]
+        "ACC": ["LON_CTR", "LON_S_CTR", "LON_SC_CTR", "LTC_CTR", "LTC_S_CTR", "LTC_SW_CTR"]
     },
     "EGKK": {
         "DEL": ["EGKK_DEL"],
         "GND": ["EGKK_N_GND", "EGKK_S_GND"],
         "TWR": ["EGKK_TWR"],
         "APP": ["EGKK_APP"],
-        "ACC": ["LON_CTR", "LON_S_CTR", "LON_SC_CTR", "LTC_S_CTR", "LTC_SW_CTR"],
+        "ACC": ["LON_CTR", "LON_S_CTR", "LON_SC_CTR", "LTC_CTR", "LTC_S_CTR", "LTC_SW_CTR"],
     },
     "EGLL": {
         "DEL": ["EGLL_DEL"],
         "GND": ["EGLL_2_GND"],
         "TWR": ["EGLL_S_TWR"],
         "APP": ["EGLL_N_APP"],
-        "ACC": ["LON_CTR", "LON_S_CTR", "LON_SC_CTR", "LTC_S_CTR", "LTC_SW_CTR"],
+        "ACC": ["LON_CTR", "LON_S_CTR", "LON_SC_CTR", "LTC_CTR", "LTC_S_CTR", "LTC_SW_CTR"],
     },
     "EGNM": {
         "DEL": ["EGNM_DEL"],
@@ -385,7 +385,7 @@ AIRPORT_POSITIONS = {
         "GND": [],
         "TWR": ["EGSS_TWR"],
         "APP": ["EGSS_APP", "ESSEX_APP"],
-        "ACC": ["LON_CTR", "LON_C_CTR", "LON_SC_CTR"],
+        "ACC": ["LON_CTR", "LON_C_CTR", "LON_SC_CTR", "LTC_CTR", "LTC_N_CTR"],
     },
     "EHAM": {
         "DEL": ["EHAM_DEL"],
@@ -862,6 +862,13 @@ AIRPORT_POSITIONS = {
         "TWR": ["LGAV_E_TWR", "LGAV_W_TWR"],
         "APP": ["LGAV_W_APP", "LGAV_DEP"],
         "ACC": ["LGGG_CTR", "LGGG_KRK_CTR", "LGMD_W_CTR"],
+    },
+    "LGKO": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["LGKO_TWR"],
+        "APP": ["LGKO_APP"],
+        "ACC": ["LGGG_CTR"],
     },
     "LGKR": {
         "DEL": [],
