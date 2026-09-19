@@ -1142,7 +1142,7 @@ AIRPORT_POSITIONS = {
         "GND": ["LTFM_W_GND"],
         "TWR": ["LTFM_C_TWR"],
         "APP": ["IST_W_APP"],
-        "ACC": ["ANK_CTR", "ANK_W78_CTR"],
+        "ACC": ["ANK_CTR", "ANK_W_CTR", "ANK_W78_CTR"],
     },
     "LUKK": {
         "DEL": [],
