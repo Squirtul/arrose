@@ -169,6 +169,8 @@ AIRPORTS = {
     "OMAA": (24.445236, 54.649811),
     "OMDB": (25.255398, 55.354581),
     "OTHH": (25.272591, 51.609079),
+    "RCTP": (25.080078, 121.236154),
+    "RJTT": (35.549914, 139.782630),
     "RPLL": (14.509510, 121.014093),
     "SPJC": (-12.023114, -77.118590),
     "UHHH": (48.526009, 135.184957),
@@ -183,6 +185,7 @@ AIRPORTS = {
     "ZSAM": (24.544586, 118.130681),
     "ZSHC": (30.236434, 120.429131),
     "ZSPD": (31.142671, 121.805408),
+    "ZSSS": (31.197490, 121.334291),
 }
 AIRPORT_NAMES = {
     "BIAR": "Akureyri",
@@ -356,6 +359,8 @@ AIRPORT_NAMES = {
     "OMAA": "Abu Dhabi",
     "OMDB": "Dubai",
     "OTHH": "Doha Hamad",
+    "RCTP": "Taipei Taoyuan",
+    "RJTT": "Tokyo Haneda",
     "RPLL": "Manila",
     "SPJC": "Lima",
     "UHHH": "Khabarovsk",
@@ -369,5 +374,6 @@ AIRPORT_NAMES = {
     "YSSY": "Sydney",
     "ZSAM": "Xiamen",
     "ZSHC": "Hangzhou",
-    "ZSPD": "Shanghai",
+    "ZSPD": "Shanghai Pudong",
+    "ZSSS": "Shanghai Hongqiao",
 }
