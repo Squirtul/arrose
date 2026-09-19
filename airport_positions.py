@@ -582,14 +582,14 @@ AIRPORT_POSITIONS = {
         "GND": ["ESGG_GND"],
         "TWR": ["ESGG_TWR"],
         "APP": ["ESGG_E_APP"],
-        "ACC": ["ESAA_CTR", "ESMM_CTR", "ESMM_M_CTR", "ESMM_5_CTR"],
+        "ACC": ["ESAA_CTR", "ESMM_CTR", "ESMM_2_CTR", "ESMM_5_CTR"],
     },
     "ESMS": {
         "DEL": [],
         "GND": ["ESMS_GND"],
         "TWR": ["ESMS_TWR"],
         "APP": ["ESMS_APP"],
-        "ACC": ["ESAA_CTR", "ESMM_CTR", "ESMM_M_CTR", "ESMM_K_CTR", "ESMM_7_CTR"],
+        "ACC": ["ESAA_CTR", "ESMM_CTR", "ESMM_2_CTR", "ESMM_K_CTR", "ESMM_7_CTR"],
     },
     "ESPA": {
         "DEL": [],
