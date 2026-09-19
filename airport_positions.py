@@ -194,7 +194,7 @@ AIRPORT_POSITIONS = {
     },
     "EDLP": {
         "DEL": [],
-        "GND": [],
+        "GND": ["EDLP_GND"],
         "TWR": ["EDLP_TWR"],
         "APP": [],
         "ACC": ["EDGG_NH_CTR", "EDGG_N_CTR"],
@@ -214,7 +214,7 @@ AIRPORT_POSITIONS = {
     },
     "EDSB": {
         "DEL": [],
-        "GND": [],
+        "GND": ["EDSB_GND"],
         "TWR": ["EDSB_TWR"],
         "APP": ["EDDS_STG_APP"],
         "ACC": ["EDGG_S_CTR"],
