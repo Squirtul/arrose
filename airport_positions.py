@@ -597,6 +597,20 @@ AIRPORT_POSITIONS = {
         "APP": ["EYVI_APP"],
         "ACC": ["EYVL_CTR"],
     },
+    "FACT": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["FACT_TWR"],
+        "APP": ["FACT_APP"],
+        "ACC": ["FACA_CTR", "FASA_CTR"],
+    },
+    "FAOR": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["FAOR_TWR"],
+        "APP": ["FAOR_APP"],
+        "ACC": ["FAJA_CTR", "FASA_CTR"],
+    },
     "FZAA": {
         "DEL": [],
         "GND": [],
