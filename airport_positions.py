@@ -703,6 +703,13 @@ AIRPORT_POSITIONS = {
         "APP": ["JFK_A_APP", "JFK_G_APP", "JFK_K_APP", "JFK_DEP", "NY_L_APP", "NY_T1_APP", "NY_T_APP", "NY_T2_APP"],
         "ACC": ["NY_A_CTR", "NY_CTR", "NY_F_CTR"],
     },
+    "KLAX": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["LAX_S_TWR"],
+        "APP": ["LAX_S_DEP", "SCT_APP"],
+        "ACC": ["LAX_25_CTR"],
+    },
     "KLGA": {
         "DEL": ["LGA_DEL"],
         "GND": ["LGA_GND"],
