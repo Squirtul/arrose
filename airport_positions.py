@@ -1361,12 +1361,26 @@ AIRPORT_POSITIONS = {
         "APP": ["SAWH_APP"],
         "ACC": ["SAVF_CTR", "SAVF_S_CTR"],
     },
+    "SBFL": {
+        "DEL": [],
+        "GND": [],
+        "TWR": [],
+        "APP": ["SBXF_APP"],
+        "ACC": ["SBCW_CTR"],
+    },
     "SBPA": {
         "DEL": [],
         "GND": ["SBPA_GND"],
         "TWR": ["SBPA_TWR"],
         "APP": ["SBWP_APP"],
         "ACC": ["SBCW_CTR"],
+    },
+    "SGAS": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["SGAS_TWR"],
+        "APP": ["SGAS_APP"],
+        "ACC": ["SGFA_CTR"],
     },
     "SKBO": {
         "DEL": [],
