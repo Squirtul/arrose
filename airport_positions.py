@@ -455,7 +455,7 @@ AIRPORT_POSITIONS = {
         "DEL": [],
         "GND": ["EICK_GND"],
         "TWR": ["EICK_TWR"],
-        "APP": ["EICK_APP"],
+        "APP": ["EICK_APP", "MUNSTER_APP"],
         "ACC": ["EISN_CTR"],
     },
     "EIDW": {
