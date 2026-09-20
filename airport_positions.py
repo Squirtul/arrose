@@ -469,7 +469,7 @@ AIRPORT_POSITIONS = {
         "DEL": [],
         "GND": [],
         "TWR": ["EINN_TWR"],
-        "APP": ["EINN_APP"],
+        "APP": ["EINN_APP", "MUNSTER_APP"],
         "ACC": ["EISN_CTR"],
     },
     "EKBI": {
@@ -491,7 +491,7 @@ AIRPORT_POSITIONS = {
         "GND": [],
         "TWR": ["EKVG_I_TWR"],
         "APP": [],
-        "ACC": ["BIRD_S1_CTR"],
+        "ACC": ["BIRD_S1_CTR", "BIRD_E1_CTR"],
     },
     "EKYT": {
         "DEL": [],
