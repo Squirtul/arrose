@@ -960,7 +960,14 @@ AIRPORT_POSITIONS = {
         "GND": ["LFPO_GND"],
         "TWR": [],
         "APP": ["LFPO_APP", "LFPG_N_APP"],
-        "ACC": [],
+        "ACC": ["PAR_CTR"],
+    },
+    "LFQQ": {
+        "DEL": [],
+        "GND": ["LFQQ_GND"],
+        "TWR": ["LFQQ_TWR"],
+        "APP": ["LFQQ_QE_APP", "LFQQ_QW_APP"],
+        "ACC": ["PAR_CTR"],
     },
     "LFRS": {
         "DEL": [],
