@@ -21,7 +21,7 @@ AIRPORT_POSITIONS = {
         "DEL": [],
         "GND": ["BIRK_GND"],
         "TWR": ["BIRK_TWR"],
-        "APP": ["BIRK_APP"],
+        "APP": ["BIRK_APP", "BIKF_APP"],
         "ACC": ["BIRD_S1_CTR"],
     },
     "CYVR": {
@@ -940,6 +940,13 @@ AIRPORT_POSITIONS = {
         "TWR": ["LEVX_TWR"],
         "APP": ["LECG_APP"],
         "ACC": ["LECM_CTR", "LECM_R1_CTR", "LECM_SAS_CTR"],
+    },
+    "LFLL": {
+        "DEL": ["LFLL_DEL"],
+        "GND": ["LFLL_GND"],
+        "TWR": ["LFLL_TWR"],
+        "APP": ["LFLL_VW_APP"],
+        "ACC": ["LFMM_CTR"],
     },
     "LFKJ": {
         "DEL": [],
