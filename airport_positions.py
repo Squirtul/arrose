@@ -808,6 +808,13 @@ AIRPORT_POSITIONS = {
         "APP": ["PVD_APP"],
         "ACC": ["BOS_1_CTR", "BOS_2_CTR", "BOS_3_CTR"],
     },
+    "KPWM": {
+        "DEL": [],
+        "GND": ["PWM_GND"],
+        "TWR": ["PWM_TWR"],
+        "APP": ["PWM_APP"],
+        "ACC": ["BOS_1_CTR"],
+    },
     "KSAN": {
         "DEL": [],
         "GND": ["SAN_GND"],
