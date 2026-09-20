@@ -175,7 +175,7 @@ AIRPORT_POSITIONS = {
         "DEL": ["EDDS_DEL"],
         "GND": ["EDDS_GND"],
         "TWR": ["EDDS_TWR"],
-        "APP": ["EDDS_STG_APP"],
+        "APP": ["EDDS_STG_APP", "EDDS_F_APP"],
         "ACC": ["EDGG_S_CTR", "EDGG_BAD_CTR", "EDGG_BAH_CTR"],
     },
     "EDDV": {
@@ -570,11 +570,18 @@ AIRPORT_POSITIONS = {
         "APP": ["EPKK_APP"],
         "ACC": ["EPWW_CTR", "EPWW_S_CTR", "EPWW_ST_CTR"],
     },
+    "EPLL": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["EPLL_TWR"],
+        "APP": ["EPWA_APP"],
+        "ACC": ["EPWW_CTR"],
+    },
     "EPWA": {
         "DEL": ["EPWA_DEL"],
         "GND": ["EPWA_GND"],
         "TWR": ["EPWA_TWR"],
-        "APP": ["EPWA_APP"],
+        "APP": ["EPWA_APP", "EPWA_N_APP"],
         "ACC": ["EPWW_CTR"],
     },
     "ESGG": {
@@ -600,10 +607,10 @@ AIRPORT_POSITIONS = {
     },
     "ESSA": {
         "DEL": ["ESSA_DEL"],
-        "GND": [],
+        "GND": ["ESSA_W_GND"],
         "TWR": ["ESSA_W_TWR"],
-        "APP": ["ESSA_E_APP"],
-        "ACC": ["ESAA_CTR"],
+        "APP": ["ESSA_E_APP", "ESSA_W_APP", "ESSA_A_APP"],
+        "ACC": ["ESAA_CTR", "ESOS_1_CTR"],
     },
     "EVRA": {
         "DEL": [],
