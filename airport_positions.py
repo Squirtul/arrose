@@ -668,6 +668,13 @@ AIRPORT_POSITIONS = {
         "APP": ["HECA_APP"],
         "ACC": ["HECC_CTR", "HECC_1_CTR"],
     },
+    "KAUS": {
+        "DEL": [],
+        "GND": [],
+        "TWR": [],
+        "APP": ["AUS_F_APP", "AUS_E_APP", "AUS_W_APP"],
+        "ACC": ["HOU_50_CTR", "HOU_83_CTR", "HOU_38_CTR", "HOU_24_CTR", "HOU_43_CTR"],
+    },
     "KBHM": {
         "DEL": ["BHM_DEL"],
         "GND": ["BHM_GND"],
@@ -688,6 +695,20 @@ AIRPORT_POSITIONS = {
         "TWR": ["BOS_TWR", "BOS_1_TWR"],
         "APP": ["BOS_APP", "BOS_1_APP", "BOS_2_APP", "BOS_3_APP"],
         "ACC": ["BOS_1_CTR", "BOS_2_CTR", "BOS_3_CTR"],
+    },
+    "KDAL": {
+        "DEL": [],
+        "GND": ["DAL_GND"],
+        "TWR": ["DAL_TWR"],
+        "APP": ["D10_L_DEP", "D10_E_APP"],
+        "ACC": ["FTW_93_CTR", "FTW_50_CTR", "FTW_46_CTR"],
+    },
+    "KDFW": {
+        "DEL": ["DFW_DEL"],
+        "GND": ["DFW_E_GND", "DFW_RW_RMP"],
+        "TWR": ["DFW_E_TWR"],
+        "APP": ["D10_L_DEP", "D10_E_APP"],
+        "ACC": ["FTW_93_CTR", "FTW_50_CTR", "FTW_46_CTR"],
     },
     "KEVV": {
         "DEL": ["EVV_DEL"],
@@ -716,6 +737,13 @@ AIRPORT_POSITIONS = {
         "TWR": [],
         "APP": ["AZO_G_APP"],
         "ACC": ["CHI_35_CTR"],
+    },
+    "KIAH": {
+        "DEL": [],
+        "GND": ["IAH_W_GND", "IAH_N_RMP"],
+        "TWR": ["IAH_W_TWR", "IAH_C1_TWR"],
+        "APP": ["I9O_M_DEP", "I90_A_APP", "I90_D_APP", "I90_I_APP"],
+        "ACC": ["HOU_50_CTR", "HOU_83_CTR", "HOU_38_CTR", "HOU_24_CTR", "HOU_43_CTR"],
     },
     "KJFK": {
         "DEL": ["JFK_DEL"],
@@ -752,6 +780,13 @@ AIRPORT_POSITIONS = {
         "APP": ["MIA_D_DEP"],
         "ACC": ["MIA_06_CTR", "MIA_061_CTR", "MIA_N_CTR"],
     },
+    "KMSY": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["MSY_TWR"],
+        "APP": ["MSY_W_APP"],
+        "ACC": ["HOU_50_CTR", "HOU_83_CTR", "HOU_38_CTR", "HOU_24_CTR", "HOU_43_CTR"],
+    },
     "KORD": {
         "DEL": [],
         "GND": ["ORD_I_GND"],
@@ -765,6 +800,13 @@ AIRPORT_POSITIONS = {
         "TWR": ["PVD_TWR"],
         "APP": ["PVD_APP"],
         "ACC": ["BOS_1_CTR", "BOS_2_CTR", "BOS_3_CTR"],
+    },
+    "KSAN": {
+        "DEL": [],
+        "GND": ["SAN_GND"],
+        "TWR": ["SAN_TWR"],
+        "APP": ["SCT_APP", "SAN_W_APP"],
+        "ACC": ["LAX_25_CTR"],
     },
     "KSEA": {
         "DEL": ["SEA_DEL"],
@@ -786,6 +828,13 @@ AIRPORT_POSITIONS = {
         "TWR": ["TEB_TWR"],
         "APP": ["EWR_DEP", "EWR_A_APP", "EWR_P_APP", "EWR_H_APP", "NY_APP", "NY_T_APP", "NY_L_APP"],
         "ACC": ["NY_CTR"],
+    },
+    "KTPA": {
+        "DEL": [],
+        "GND": ["TPA_GND"],
+        "TWR": ["TPA_TWR"],
+        "APP": ["TPA_L_APP"],
+        "ACC": ["JAX_30_CTR"],
     },
     "LATI": {
         "DEL": [],
