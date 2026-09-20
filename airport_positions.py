@@ -1363,7 +1363,7 @@ AIRPORT_POSITIONS = {
     },
     "SBPA": {
         "DEL": [],
-        "GND": [],
+        "GND": ["SBPA_GND"],
         "TWR": ["SBPA_TWR"],
         "APP": ["SBWP_APP"],
         "ACC": ["SBCW_CTR"],
