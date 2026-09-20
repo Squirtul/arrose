@@ -694,7 +694,7 @@ AIRPORT_POSITIONS = {
         "GND": ["BOI_GND"],
         "TWR": ["BOI_TWR"],
         "APP": ["BOI_A_APP", "BOI_G_APP"],
-        "ACC": ["SLC_442_CTR"],
+        "ACC": ["SLC_442_CTR", "SLC_44_CTR"],
     },
     "KBOS": {
         "DEL": ["BOS_DEL"],
@@ -1269,6 +1269,13 @@ AIRPORT_POSITIONS = {
         "TWR": ["MMUN_TWR"],
         "APP": ["MMUN_APP"],
         "ACC": ["MMID_CTR", "MMFR_FSS"],
+    },
+    "MUHA": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["MUHA_TWR"],
+        "APP": ["MUHA_APP"],
+        "ACC": ["MUFH_CTR"],
     },
     "OBBI": {
         "DEL": ["OBBI_DEL"],
