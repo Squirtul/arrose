@@ -913,6 +913,13 @@ AIRPORT_POSITIONS = {
         "APP": ["LEBB_APP"],
         "ACC": ["LECM_CTR", "LECM_R1_CTR"],
     },
+    "LEBL": {
+        "DEL" ["LEBL_DEL"],
+        "GND": ["LEBL_GND"],
+        "TWR": [],
+        "APP": ["LEBL_APP"],
+        "ACC": ["LECB_RN_CTR"],
+    },
     "LECO": {
         "DEL": [],
         "GND": [],
