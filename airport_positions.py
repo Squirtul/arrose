@@ -480,9 +480,9 @@ AIRPORT_POSITIONS = {
         "ACC": ["EKDK_CTR", "EKDK_UN_CTR"],
     },
     "EKCH": {
-        "DEL": [],
-        "GND": ["EKCH_A_GND", "EKCH_C_GND"],
-        "TWR": ["EKCH_A_TWR", "EKCH_D_TWR"],
+        "DEL": ["EKCH_DEL"],
+        "GND": ["EKCH_B_GND", "EKCH_A_GND", "EKCH_C_GND"],
+        "TWR": ["EKCH_A_TWR", "EKCH_D_TWR", "EKCH_GW_TWR"],
         "APP": ["EKCH_P_APP", "EKCH_F_APP", "EKCH_O_APP", "EKCH_W_APP", "EKCH_K_DEP"],
         "ACC": ["EKDK_CTR", "EKDK_UC_CTR", "EKDK_E_CTR", "EKDK_B_CTR"],
     },
