@@ -290,6 +290,13 @@ AIRPORT_POSITIONS = {
         "APP": ["EFRO_APP", "EFRO_R_APP"],
         "ACC": ["EFIN_CTR", "EFIN_D_CTR", "EFIN_M_CTR"],
     },
+    "EFTU": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["EFTU_R_TWR"],
+        "APP": [],
+        "ACC": ["EFIN_CTR", "EFIN_D_CTR"],
+    },
     "EGAA": {
         "DEL": [],
         "GND": ["EGAA_GND"],
