@@ -1029,8 +1029,8 @@ AIRPORT_POSITIONS = {
         "DEL": ["LFMN_DEL"],
         "GND": ["LFMN_GND"],
         "TWR": ["LFMN_TWR"],
-        "APP": ["LFMN_APP"],
-        "ACC": ["LFMM_CTR"],
+        "APP": ["LFMN_APP", "LFMN_F_APP", "LFMN_DEP"],
+        "ACC": ["LFMM_CTR", "LFMM_E_CTR"],
     },
     "LFPG": {
         "DEL": ["LFPG_DEL"],
@@ -1122,6 +1122,20 @@ AIRPORT_POSITIONS = {
         "TWR": ["LIEO_TWR"],
         "APP": ["LIEO_EW0_APP"],
         "ACC": ["LIRR_EW1_CTR", "LIRR_EW2_CTR", "LIRR_SU1_CTR"],
+    },
+    "LIRA": {
+        "DEL": [],
+        "GND": ["LIRA_GND"],
+        "TWR": ["LIRA_TWR"],
+        "APP": ["LIRR_AEM_APP", "LIRR_TW1_APP"],
+        "ACC": ["LIRR_NE1_CTR", "LIRR_TS1_CTR"],
+    },
+    "LIRF": {
+        "DEL": ["LIRF_DEL", "LIRF_P_DEL"],
+        "GND": ["LIRF_E_GND", "LIRF_W_GND"],
+        "TWR": ["LIRF_E_TWR"],
+        "APP": ["LIRR_AEM_APP", "LIRR_TW1_APP", "LIRR_PN1_DEP"],
+        "ACC": ["LIRR_NE1_CTR", "LIRR_TS1_CTR"],
     },
     "LIMC": {
         "DEL": ["LIMC_DEL", "LIMC_O_DEL"],
