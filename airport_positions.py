@@ -1123,20 +1123,6 @@ AIRPORT_POSITIONS = {
         "APP": ["LIEO_EW0_APP"],
         "ACC": ["LIRR_EW1_CTR", "LIRR_EW2_CTR", "LIRR_SU1_CTR"],
     },
-    "LIRA": {
-        "DEL": [],
-        "GND": ["LIRA_GND"],
-        "TWR": ["LIRA_TWR"],
-        "APP": ["LIRR_AEM_APP", "LIRR_TW1_APP"],
-        "ACC": ["LIRR_NE1_CTR", "LIRR_TS1_CTR"],
-    },
-    "LIRF": {
-        "DEL": ["LIRF_DEL", "LIRF_P_DEL"],
-        "GND": ["LIRF_E_GND", "LIRF_W_GND"],
-        "TWR": ["LIRF_E_TWR"],
-        "APP": ["LIRR_AEM_APP", "LIRR_TW1_APP", "LIRR_PN1_DEP"],
-        "ACC": ["LIRR_NE1_CTR", "LIRR_TS1_CTR"],
-    },
     "LIMC": {
         "DEL": ["LIMC_DEL", "LIMC_O_DEL"],
         "GND": ["LIMC_W_GND"],
@@ -1157,6 +1143,13 @@ AIRPORT_POSITIONS = {
         "TWR": [],
         "APP": ["LIMM_ANE_APP"],
         "ACC": [],
+    },
+    "LIRA": {
+        "DEL": [],
+        "GND": ["LIRA_GND"],
+        "TWR": ["LIRA_TWR"],
+        "APP": ["LIRR_AEM_APP", "LIRR_TW1_APP"],
+        "ACC": ["LIRR_NE1_CTR", "LIRR_TS1_CTR"],
     },
     "LIRF": {
         "DEL": ["LIRF_DEL", "LIRF_P_DEL"],
