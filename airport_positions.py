@@ -1011,6 +1011,13 @@ AIRPORT_POSITIONS = {
         "APP": ["LECG_APP"],
         "ACC": ["LECM_CTR", "LECM_R1_CTR", "LECM_SAS_CTR"],
     },
+    "LFBD": {
+        "DEL": [],
+        "GND": ["LFBD_GND"],
+        "TWR": ["LFBD_TWR"],
+        "APP": ["LFBD_APP", "LFBD_BW_APP"],
+        "ACC": ["LFBB_CTR"],
+    },
     "LFLL": {
         "DEL": ["LFLL_DEL"],
         "GND": ["LFLL_GND"],
@@ -1023,14 +1030,14 @@ AIRPORT_POSITIONS = {
         "GND": [],
         "TWR": ["LFKJ_TWR"],
         "APP": ["LFKJ_APP"],
-        "ACC": [],
+        "ACC": ["LFMM_CTR", "LFMM_E_CTR", "LFMM_RAE_CTR"],
     },
     "LFMN": {
         "DEL": ["LFMN_DEL"],
         "GND": ["LFMN_GND"],
         "TWR": ["LFMN_TWR"],
-        "APP": ["LFMN_APP", "LFMN_F_APP", "LFMN_DEP"],
-        "ACC": ["LFMM_CTR", "LFMM_E_CTR"],
+        "APP": ["LFMN_APP", "LFMN_F_APP", "LFMN_DEP", "LFMN_NO_APP"],
+        "ACC": ["LFMM_CTR", "LFMM_E_CTR", "LFMM_RAE_CTR"],
     },
     "LFPG": {
         "DEL": ["LFPG_DEL"],
