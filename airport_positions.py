@@ -1261,7 +1261,7 @@ AIRPORT_POSITIONS = {
         "GND": [],
         "TWR": ["LTAC_TWR"],
         "APP": ["LTAC_APP"],
-        "ACC": ["ANK_CTR"],
+        "ACC": ["ANK_CTR", "ANK_C_CTR"],
     },
     "LTBS": {
         "DEL": [],
