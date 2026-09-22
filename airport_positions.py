@@ -703,6 +703,13 @@ AIRPORT_POSITIONS = {
         "APP": ["FAOR_APP"],
         "ACC": ["FAJA_CTR", "FASA_CTR"],
     },
+    "FVRG": {
+        "DEL": [],
+        "GND": [],
+        "TWR": [],
+        "APP": ["FVRG_APP"],
+        "ACC": [],
+    },
     "FZAA": {
         "DEL": [],
         "GND": [],
