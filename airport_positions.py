@@ -1025,6 +1025,13 @@ AIRPORT_POSITIONS = {
         "APP": ["LFKJ_APP"],
         "ACC": [],
     },
+    "LFMN": {
+        "DEL": ["LFMN_DEL"],
+        "GND": ["LFMN_GND"],
+        "TWR": ["LFMN_TWR"],
+        "APP": ["LFMN_APP"],
+        "ACC": ["LFMM_CTR"],
+    },
     "LFPG": {
         "DEL": ["LFPG_DEL"],
         "GND": ["LFPG_RMP", "LFPG_N_GND", "LFPG_SW_GND"],
