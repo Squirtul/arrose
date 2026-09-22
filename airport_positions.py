@@ -95,11 +95,11 @@ AIRPORT_POSITIONS = {
         "ACC": ["EDWW_CTR", "EDWW_MAR_CTR"],
     },
     "EDDB": {
-        "DEL": [],
-        "GND": [],
-        "TWR": [],
-        "APP": ["EDDB_S_APP"],
-        "ACC": ["EDWW_CTR", "EDWW_MAR_CTR"],
+        "DEL": ["EDDB_DEL"],
+        "GND": ["EDDB_A_GND", "EDDB_S_GND"],
+        "TWR": ["EDDB_N_TWR", "EDDB_S_TWR"],
+        "APP": ["EDDB_AS_APP", "EDDB_N_APP", "EDDB_S_APP", "EDDB_S_DEP"],
+        "ACC": ["EDWW_CTR", "EDWW_FLG_CTR", "EDWW_MAR_CTR"],
     },
     "EDDC": {
         "DEL": [],
