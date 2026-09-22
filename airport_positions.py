@@ -1049,7 +1049,7 @@ AIRPORT_POSITIONS = {
     "LFPO": {
         "DEL": [],
         "GND": ["LFPO_GND"],
-        "TWR": [],
+        "TWR": ["LFPO_TWR"],
         "APP": ["LFPO_APP", "LFPG_N_APP"],
         "ACC": ["PAR_CTR"],
     },
