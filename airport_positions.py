@@ -1155,14 +1155,14 @@ AIRPORT_POSITIONS = {
         "DEL": [],
         "GND": ["LIRA_GND"],
         "TWR": ["LIRA_TWR"],
-        "APP": ["LIRR_AEM_APP", "LIRR_TW1_APP"],
+        "APP": ["LIRR_AEM_APP", "LIRR_TW1_APP", "LIRR_AET_APP"],
         "ACC": ["LIRR_NE1_CTR", "LIRR_TS1_CTR"],
     },
     "LIRF": {
         "DEL": ["LIRF_DEL", "LIRF_P_DEL"],
         "GND": ["LIRF_E_GND", "LIRF_W_GND"],
         "TWR": ["LIRF_TWR", "LIRF_E_TWR"],
-        "APP": ["LIRR_PN1_DEP", "LIRR_TW1_APP", "LIRR_AEM_APP"],
+        "APP": ["LIRR_PN1_DEP", "LIRR_TW1_APP", "LIRR_AEM_APP", "LIRR_AET_APP"],
         "ACC": ["LIRR_TS1_CTR", "LIRR_NE1_CTR"],
     },
     "LIRN": {
