@@ -1198,7 +1198,7 @@ AIRPORT_POSITIONS = {
         "GND": ["LKPR_GND"],
         "TWR": ["LKPR_TWR"],
         "APP": ["LKPR_APP", "LKPR_D_APP"],
-        "ACC": ["LKAA_CTR", "LKAA_NS_CTR", "LKAA_W_CTR"],
+        "ACC": ["LKAA_CTR", "LKAA_NS_CTR", "LKAA_W_CTR", "LKAA_S_CTR", "LKAA_N_CTR"],
     },
     "LKTB": {
         "DEL": [],
