@@ -428,7 +428,7 @@ AIRPORT_POSITIONS = {
         "GND": ["EGPH_GND"],
         "TWR": ["EGPH_TWR"],
         "APP": ["EGPH_APP"],
-        "ACC": ["SCO_CTR"],
+        "ACC": ["SCO_CTR", "SCO_S_CTR", "SCL_TMA_CTR"],
     },
     "EGPK": {
         "DEL": [],
