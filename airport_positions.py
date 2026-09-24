@@ -1573,10 +1573,17 @@ AIRPORT_POSITIONS = {
     },
     "VVTS": {
         "DEL": [],
-        "GND": [],
+        "GND": ["VVTS_GND"],
         "TWR": ["VVTS_TWR"],
         "APP": ["VVTS_APP", "VVTS_F_APP"],
         "ACC": ["VCL_CTR", "VVHM_CTR"],
+    },
+    "WMKK": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["WMKK_TWR"],
+        "APP": ["WMKK_APP"],
+        "ACC": ["WMFC_CTR"],
     },
     "YSSY": {
         "DEL": ["SY_DEL"],
@@ -1584,6 +1591,13 @@ AIRPORT_POSITIONS = {
         "TWR": ["SY_TWR"],
         "APP": ["SY_APP"],
         "ACC": ["ML-GUN_CTR"],
+    },
+    "ZGSZ": {
+        "DEL": ["ZGSZ_DEL"],
+        "GND": ["ZGSZ_GND"],
+        "TWR": ["ZGSZ_TWR"],
+        "APP": [],
+        "ACC": ["ZGGG_CTR"],
     },
     "ZSHC": {
         "DEL": [],
