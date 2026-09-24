@@ -400,7 +400,7 @@ AIRPORT_POSITIONS = {
         "GND": ["EGNT_GND"],
         "TWR": ["EGNT_TWR"],
         "APP": ["EGNT_APP"],
-        "ACC": ["MAN_CTR"],
+        "ACC": ["MAN_CTR", "LON_CTR", "LON_N_CTR"],
     },
     "EGNX": {
         "DEL": [],
