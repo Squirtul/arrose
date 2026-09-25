@@ -1452,6 +1452,13 @@ AIRPORT_POSITIONS = {
         "APP": ["RPLL_APP", "RPLL_F_APP"],
         "ACC": ["MNL_CTR", "MNL_C_CTR"],
     },
+    "RPVM": {
+        "DEL": ["RPVM_DEL"],
+        "GND": ["RPVM_GND"],
+        "TWR": ["RPVM_TWR"],
+        "APP": ["RPVM_APP"],
+        "ACC": ["MNL_CTR"],
+    },
     "SAWH": {
         "DEL": [],
         "GND": ["SAWH_GND"],
