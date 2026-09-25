@@ -738,6 +738,13 @@ AIRPORT_POSITIONS = {
         "APP": ["AUS_F_APP", "AUS_E_APP", "AUS_W_APP"],
         "ACC": ["HOU_50_CTR", "HOU_83_CTR", "HOU_38_CTR", "HOU_24_CTR", "HOU_43_CTR"],
     },
+    "KBDL": {
+        "DEL": [],
+        "GND": ["BDL_GND"],
+        "TWR": ["BDL_TWR"],
+        "APP": ["BDL_APP"],
+        "ACC": ["BOS_CTR"],
+    },
     "KBHM": {
         "DEL": ["BHM_DEL"],
         "GND": ["BHM_GND"],
