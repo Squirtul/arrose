@@ -1456,7 +1456,7 @@ AIRPORT_POSITIONS = {
         "DEL": ["RPVM_DEL"],
         "GND": ["RPVM_GND"],
         "TWR": ["RPVM_TWR"],
-        "APP": ["RPVM_APP"],
+        "APP": ["RPVM_APP", "RPVM_S_APP"],
         "ACC": ["MNL_CTR"],
     },
     "SAWH": {
