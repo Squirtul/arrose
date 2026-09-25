@@ -630,7 +630,7 @@ AIRPORT_POSITIONS = {
         "DEL": ["EPWA_DEL"],
         "GND": ["EPWA_GND"],
         "TWR": ["EPWA_TWR"],
-        "APP": ["EPWA_APP", "EPWA_N_APP"],
+        "APP": ["EPWA_APP", "EPWA_N_APP", "EPWA_F_APP"],
         "ACC": ["EPWW_CTR"],
     },
     "ESGG": {
