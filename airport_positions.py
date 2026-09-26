@@ -119,7 +119,7 @@ AIRPORT_POSITIONS = {
         "DEL": [],
         "GND": ["EDDG_GND"],
         "TWR": ["EDDG_TWR"],
-        "APP": [],
+        "APP": ["EDDG_HMM_APP"],
         "ACC": ["EDGG_NH_CTR", "EDGG_N_CTR", "EDGG_PAD_CTR"],
     },
     "EDDH": {
@@ -161,7 +161,7 @@ AIRPORT_POSITIONS = {
         "DEL": ["EDDP_DEL"],
         "GND": ["EDDP_GND"],
         "TWR": ["EDDP_N_TWR", "EDDP_S_TWR"],
-        "APP": ["EDDP_TRN_APP", "EDDP_TRS_APP", "EDDP_SD_APP"],
+        "APP": ["EDDP_TRN_APP", "EDDP_TRS_APP", "EDDP_ND_APP", "EDDP_SD_APP"],
         "ACC": ["EDMM_BBG_CTR", "EDMM_GER_CTR", "EDMM_HOF_CTR", "EDMM_MEI_CTR"],
     },
     "EDDR": {
@@ -217,7 +217,7 @@ AIRPORT_POSITIONS = {
         "DEL": [],
         "GND": ["EDLP_GND"],
         "TWR": ["EDLP_TWR"],
-        "APP": [],
+        "APP": ["EDDG_HMM_APP"],
         "ACC": ["EDGG_NH_CTR", "EDGG_N_CTR", "EDGG_PAD_CTR"],
     },
     "EDLV": {
@@ -231,7 +231,7 @@ AIRPORT_POSITIONS = {
         "DEL": [],
         "GND": ["EDLW_GND"],
         "TWR": ["EDLW_TWR"],
-        "APP": [],
+        "APP": ["EDDG_HMM_APP"],
         "ACC": ["EDGG_NH_CTR", "EDGG_N_CTR", "EDGG_PAD_CTR",
     },
     "EDMO": {
@@ -281,14 +281,21 @@ AIRPORT_POSITIONS = {
         "GND": [],
         "TWR": ["EFKI_I_TWR"],
         "APP": [],
-        "ACC": ["EFIN_CTR", "EFIN_D_CTR", "EFIN_M_CTR"],
+        "ACC": ["EFIN_CTR", "EFIN_D_CTR", "EFIN_M_CTR", "EFIN_V_CTR"],
+    },
+    "EFOU": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["EFOU_R_TWR"],
+        "APP": ["EFOU_APP"],
+        "ACC": ["EFIN_CTR", "EFIN_D_CTR", "EFIN_M_CTR", "EFIN_V_CTR"],
     },
     "EFRO": {
         "DEL": ["EFRO_DEL"],
         "GND": [],
         "TWR": ["EFRO_TWR", "EFRO_R_TWR"],
         "APP": ["EFRO_APP", "EFRO_R_APP"],
-        "ACC": ["EFIN_CTR", "EFIN_D_CTR", "EFIN_M_CTR"],
+        "ACC": ["EFIN_CTR", "EFIN_D_CTR", "EFIN_M_CTR", "EFIN_V_CTR"],
     },
     "EFTU": {
         "DEL": [],
@@ -357,7 +364,7 @@ AIRPORT_POSITIONS = {
         "DEL": ["EGKK_DEL"],
         "GND": ["EGKK_N_GND", "EGKK_S_GND"],
         "TWR": ["EGKK_TWR"],
-        "APP": ["EGKK_APP"],
+        "APP": ["EGKK_APP", "EGKK_F_APP"],
         "ACC": ["LON_CTR", "LON_S_CTR", "LON_SC_CTR", "LTC_CTR", "LTC_S_CTR", "LTC_SW_CTR"],
     },
     "EGLC": {
@@ -369,10 +376,10 @@ AIRPORT_POSITIONS = {
     },
     "EGLL": {
         "DEL": ["EGLL_DEL"],
-        "GND": ["EGLL_2_GND", "EGLL_3_GND"],
-        "TWR": ["EGLL_S_TWR"],
-        "APP": ["EGLL_N_APP"],
-        "ACC": ["LON_CTR", "LON_S_CTR", "LON_SC_CTR", "LTC_CTR", "LTC_S_CTR", "LTC_SW_CTR"],
+        "GND": ["EGLL_1_GND", "EGLL_2_GND", "EGLL_3_GND"],
+        "TWR": ["EGLL_N_TWR", "EGLL_S_TWR"],
+        "APP": ["EGLL_N_APP", "EGLL_F_APP",
+        "ACC": ["LON_CTR", "LON_S_CTR", "LON_SC_CTR", "LTC_CTR", "LTC_S_CTR", "LTC_SE_CTR", "LTC_SW_CTR"],
     },
     "EGMC": {
         "DEL": [],
@@ -1421,7 +1428,7 @@ AIRPORT_POSITIONS = {
         "DEL": ["OMDB_DEL", "OMDB_P_DEL"],
         "GND": ["OMDB_1_GND", "OMDB_2_GND", "OMDB_P_GND"],
         "TWR": ["OMDB_1_TWR"],
-        "APP": ["OMDB_APP", "OMDB_F_APP"],
+        "APP": ["OMDB_APP", "OMDB_F_APP", "OMDB_1_DEP"],
         "ACC": ["OMAE_1_CTR"],
     },
     "OTHH": {
@@ -1515,6 +1522,13 @@ AIRPORT_POSITIONS = {
         "APP": ["SPJC_APP"],
         "ACC": ["LIM_CTR"],
     },
+    "UBBB": {
+        "DEL": ["UBBB_DEL"],
+        "GND": ["UBBB_GND"],
+        "TWR": ["UBBB_TWR"],
+        "APP": ["UBBB_APP"],
+        "ACC": ["UBBA_CTR", "RU-SC_FSS"],
+    },
     "UHHH": {
         "DEL": [],
         "GND": ["UHHH_GND"],
@@ -1542,6 +1556,13 @@ AIRPORT_POSITIONS = {
         "TWR": ["UKLL_TWR"],
         "APP": ["UKLL_APP"],
         "ACC": ["UKR_CTR"],
+    },
+    "ULLI": {
+        "DEL": ["ULLI_DEL"],
+        "GND": ["ULLI_GND"],
+        "TWR": ["ULLI_D_TWR", "ULLI_A_TWR"],
+        "APP": ["ULLL_APP", "ULLI_R_APP"],
+        "ACC": ["ULLL_R_CTR"],
     },
     "UUDD": {
         "DEL": ["UUDD_DEL"],
