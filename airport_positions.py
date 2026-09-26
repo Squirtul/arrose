@@ -851,8 +851,8 @@ AIRPORT_POSITIONS = {
         "ACC": ["MEM_22_CTR"],
     },
     "KMIA": {
-        "DEL": [],
-        "GND": [],
+        "DEL": ["MIA_DEL"],
+        "GND": ["MIA_N_GND"],
         "TWR": ["MIA_N_TWR"],
         "APP": ["MIA_D_DEP"],
         "ACC": ["MIA_06_CTR", "MIA_061_CTR", "MIA_N_CTR"],
@@ -1535,6 +1535,13 @@ AIRPORT_POSITIONS = {
         "TWR": ["UHHH_TWR"],
         "APP": ["UHHH_APP"],
         "ACC": ["UHHH_CTR"],
+    },
+    "UKBB": {
+        "DEL": [],
+        "GND": ["UKBB_GND"],
+        "TWR": ["UKBB_TWR"],
+        "APP": ["UKBB_APP"],
+        "ACC": ["UKR_CTR"],
     },
     "UKDD": {
         "DEL": [],
