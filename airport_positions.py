@@ -1175,16 +1175,23 @@ AIRPORT_POSITIONS = {
     "LIME": {
         "DEL": [],
         "GND": [],
-        "TWR": [],
+        "TWR": ["LIME_TWR"],
         "APP": ["LIMM_ANE_APP"],
-        "ACC": [],
+        "ACC": ["LIMM_WS2_CTR"],
+    },
+    "LIMJ": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["LIMJ_TWR"],
+        "APP": ["LIMJ_WS0_APP"],
+        "ACC": ["LIMM_WS2_CTR"],
     },
     "LIML": {
         "DEL": [],
         "GND": [],
-        "TWR": [],
+        "TWR": ["LIML_TWR"],
         "APP": ["LIMM_ANE_APP"],
-        "ACC": [],
+        "ACC": ["LIMM_WS2_CTR"],
     },
     "LIRA": {
         "DEL": [],
