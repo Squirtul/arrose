@@ -613,10 +613,10 @@ AIRPORT_POSITIONS = {
         "ACC": ["EPWW_CTR", "EPWW_N_CTR", "EPWW_DBF_CTR"],
     },
     "EPKK": {
-        "DEL": [],
-        "GND": [],
+        "DEL": ["EPKK_DEL"],
+        "GND": ["EPKK_GND"],
         "TWR": ["EPKK_TWR"],
-        "APP": ["EPKK_APP"],
+        "APP": ["EPKK_APP", "EPKK_E_APP", "EPKK_KK_APP"],
         "ACC": ["EPWW_CTR", "EPWW_S_CTR", "EPWW_ST_CTR"],
     },
     "EPLL": {
