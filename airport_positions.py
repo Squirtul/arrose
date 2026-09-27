@@ -1009,7 +1009,7 @@ AIRPORT_POSITIONS = {
         "GND": ["LEPA_GND"],
         "TWR": ["LEPA_TWR"],
         "APP": ["LEPA_APP"],
-        "ACC": ["LECB_CTR", "LECB_RE_CTR"],
+        "ACC": ["LECB_CTR", "LECB_RE_CTR", "LECB_RS_CTR"],
     },
     "LESO": {
         "DEL": [],
@@ -1024,6 +1024,13 @@ AIRPORT_POSITIONS = {
         "TWR": ["LEST_TWR"],
         "APP": ["LECG_APP"],
         "ACC": ["LECM_CTR", "LECM_R1_CTR", "LECM_SAS_CTR"],
+    },
+    "LEVC": {
+        "DEL": [],
+        "GND": ["LEVC_GND"],
+        "TWR": ["LEVC_TWR"],
+        "APP": ["LEVC_APP"],
+        "ACC": ["LECB_CTR", "LECB_RS_CTR"],
     },
     "LEVX": {
         "DEL": [],
@@ -1188,10 +1195,10 @@ AIRPORT_POSITIONS = {
     },
     "LIRN": {
         "DEL": [],
-        "GND": ["LIRN_GND"],
-        "TWR": ["LIRN_TWR"],
-        "APP": ["LIRN_US1_APP"],
-        "ACC": ["LIRR_NE1_CTR"],
+        "GND": ["LIRN_GND", "LIRN_1_GND", "LIRN_P_GND"],
+        "TWR": ["LIRN_TWR", "LIRN_1_TWR"],
+        "APP": ["LIRN_US1_APP", "LIRN_US0_APP", "LIRN_S1_APP"],
+        "ACC": ["LIRR_NE1_CTR", "LIRN_TS1_CTR"],
     },
     "LIRQ": {
         "DEL": [],
