@@ -1585,6 +1585,13 @@ AIRPORT_POSITIONS = {
         "APP": ["ULLL_APP", "ULLI_R_APP"],
         "ACC": ["ULLL_R_CTR"],
     },
+    "USSS": {
+        "DEL": [],
+        "GND": ["USSS_GND"],
+        "TWR": ["USSS_TWR"],
+        "APP": ["USSS_APP", "USSS_R_APP"],
+        "ACC": ["USSV_CTR"],
+    },
     "UUDD": {
         "DEL": ["UUDD_DEL"],
         "GND": ["UUDD_GND"],
@@ -1592,12 +1599,19 @@ AIRPORT_POSITIONS = {
         "APP": ["UUDD_APP", "MSK_APP"],
         "ACC": ["UUWV_CTR"],
     },
-    "USSS": {
+    "UUEE": {
         "DEL": [],
-        "GND": ["USSS_GND"],
-        "TWR": ["USSS_TWR"],
-        "APP": ["USSS_APP", "USSS_R_APP"],
-        "ACC": ["USSV_CTR"],
+        "GND": [],
+        "TWR": ["UUEE_TWR"],
+        "APP": ["UUEE_APP", "MSK_APP"],
+        "ACC": ["UUWV_CTR"],
+    },
+    "UUWW": {
+        "DEL": ["UUWW_DEL"],
+        "GND": ["UUWW_GND"],
+        "TWR": ["UUWW_TWR"],
+        "APP": ["UUWW_APP", "MSK_APP"],
+        "ACC": ["UUWV_CTR"],
     },
     "UWWW": {
         "DEL": [],
@@ -1647,6 +1661,13 @@ AIRPORT_POSITIONS = {
         "TWR": ["WMKK_TWR"],
         "APP": ["WMKK_APP"],
         "ACC": ["WMFC_CTR"],
+    },
+    "WSSS": {
+        "DEL": ["WSSS_DEL"],
+        "GND": ["WSSS_3_GND"],
+        "TWR": ["WSSS_1_TWR"],
+        "APP": ["WSSS_APP"],
+        "ACC": ["WSJC_CTR"],
     },
     "YSSY": {
         "DEL": ["SY_DEL"],
