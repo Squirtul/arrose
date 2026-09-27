@@ -1529,6 +1529,13 @@ AIRPORT_POSITIONS = {
         "APP": ["SBWP_APP"],
         "ACC": ["SBCW_CTR"],
     },
+    "SCEL": {
+        "DEL": [],
+        "GND": ["SCEL_GND"],
+        "TWR": ["SCEL_TWR"],
+        "APP": ["SCEL_N_APP"],
+        "ACC": ["SCEZ_N_CTR"],
+    },
     "SGAS": {
         "DEL": [],
         "GND": [],
