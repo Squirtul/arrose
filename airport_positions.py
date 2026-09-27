@@ -703,6 +703,13 @@ AIRPORT_POSITIONS = {
         "APP": ["EYVI_APP"],
         "ACC": ["EYVL_CTR"],
     },
+    "FABL": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["FABL_TWR"],
+        "APP": ["FABL_APP"],
+        "ACC": ["FASA_CTR", "FAJA_CTR", "FAJA_C_CTR"],
+    },
     "FACT": {
         "DEL": ["FACT_DEL"],
         "GND": ["FACT_GND"],
