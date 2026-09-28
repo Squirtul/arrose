@@ -24,6 +24,13 @@ AIRPORT_POSITIONS = {
         "APP": ["BIRK_APP", "BIKF_APP"],
         "ACC": ["BIRD_S1_CTR"],
     },
+    "BKPR": {
+        "DEL": [],
+        "GND": ["BKPR_GND"],
+        "TWR": ["BKPR_TWR"],
+        "APP": ["BKPR_APP"],
+        "ACC": ["KFOR_CTR"],
+    },
     "CYVR": {
         "DEL": [],
         "GND": [],
