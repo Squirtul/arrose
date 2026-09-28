@@ -1184,7 +1184,14 @@ AIRPORT_POSITIONS = {
         "GND": ["LHBP_GND"],
         "TWR": ["LHBP_TWR"],
         "APP": ["LHBP_APP"],
-        "ACC": [],
+        "ACC": ["LHCC_CTR"],
+    },
+    "LHDC": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["LHDC_I_TWR"],
+        "APP": [],
+        "ACC": ["LHCC_CTR"],
     },
     "LICC": {
         "DEL": [],
