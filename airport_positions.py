@@ -673,14 +673,14 @@ AIRPORT_POSITIONS = {
         "GND": [],
         "TWR": ["ESPA_TWR"],
         "APP": ["ESPA_APP", "ESPA_F_APP", "ESPA_P_APP"],
-        "ACC": ["ESAA_CTR", "ESOS_CTR", "ESOS_K_CTR"],
+        "ACC": ["ESAA_CTR", "ESOS_CTR", "ESOS_3_CTR", "ESOS_K_CTR"],
     },
     "ESSA": {
         "DEL": ["ESSA_DEL"],
         "GND": ["ESSA_W_GND"],
         "TWR": ["ESSA_W_TWR"],
         "APP": ["ESSA_E_APP", "ESSA_W_APP", "ESSA_A_APP"],
-        "ACC": ["ESAA_CTR", "ESOS_1_CTR"],
+        "ACC": ["ESAA_CTR", "ESOS_1_CTR", "ESOS_3_CTR"],
     },
     "EVRA": {
         "DEL": [],
