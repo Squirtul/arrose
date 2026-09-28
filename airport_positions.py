@@ -1058,7 +1058,7 @@ AIRPORT_POSITIONS = {
         "GND": ["LEVC_GND"],
         "TWR": ["LEVC_TWR"],
         "APP": ["LEVC_APP"],
-        "ACC": ["LECB_CTR", "LECB_RS_CTR"],
+        "ACC": ["LECL_CTR", "LECB_CTR", "LECB_RS_CTR"],
     },
     "LEVX": {
         "DEL": [],
