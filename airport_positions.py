@@ -1144,11 +1144,32 @@ AIRPORT_POSITIONS = {
         "APP": ["LGKO_APP"],
         "ACC": ["LGGG_CTR", "LGGG_RDS_CTR"],
     },
+    "LGKF": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["LGKF_TWR"],
+        "APP": ["LGAD_APP"],
+        "ACC": ["LGGG_CTR", "LGGG_KRK_CTR"],
+    },
     "LGKR": {
         "DEL": [],
         "GND": ["LGKR_GND"],
         "TWR": ["LGKR_TWR"],
         "APP": ["LGKR_APP"],
+        "ACC": ["LGGG_CTR", "LGGG_KRK_CTR"],
+    },
+    "LGRX": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["LGRX_TWR"],
+        "APP": ["LGAD_APP"],
+        "ACC": ["LGGG_CTR", "LGGG_KRK_CTR"],
+    },
+    "LGZA": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["LGZA_TWR"],
+        "APP": ["LGAD_APP"],
         "ACC": ["LGGG_CTR", "LGGG_KRK_CTR"],
     },
     "LHBP": {
@@ -1311,6 +1332,13 @@ AIRPORT_POSITIONS = {
         "TWR": ["LPLA_TWR"],
         "APP": ["LPHR_APP"],
         "ACC": ["LPPO_FSS"],
+    },
+    "LPMA": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["LPMA_TWR"],
+        "APP": ["LPMA_APP"],
+        "ACC": ["LPPC_CTR", "LPPC_C_CTR"],
     },
     "LPPD": {
         "DEL": [],
