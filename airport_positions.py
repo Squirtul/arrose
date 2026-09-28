@@ -1704,6 +1704,27 @@ AIRPORT_POSITIONS = {
         "APP": ["WSSS_APP"],
         "ACC": ["WSJC_CTR"],
     },
+    "YBBN": {
+        "DEL": [],
+        "GND": ["BN_GND"],
+        "TWR": ["BN_TWR"],
+        "APP": ["BN_APP"],
+        "ACC": ["BN-INL_CTR"],
+    },
+    "YBCG": {
+        "DEL": ["CG_DEL"],
+        "GND": ["CG_GND"],
+        "TWR": ["CG_TWR"],
+        "APP": ["CG_APP"],
+        "ACC": ["BN-INL_CTR"],
+    },
+    "YSCB": {
+        "DEL": [],
+        "GND": ["CB_GND"],
+        "TWR": ["CB_TWR"],
+        "APP": ["CB_APP"],
+        "ACC": ["ML-GUN_CTR"],
+    },
     "YSSY": {
         "DEL": ["SY_DEL"],
         "GND": ["SY_GND"],
