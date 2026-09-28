@@ -1204,7 +1204,7 @@ AIRPORT_POSITIONS = {
         "DEL": [],
         "GND": [],
         "TWR": ["LIMJ_TWR"],
-        "APP": ["LIMJ_WS0_APP"],
+        "APP": ["LIMF_WW0_APP", "LIMJ_WS0_APP"],
         "ACC": ["LIMM_WS2_CTR"],
     },
     "LIML": {
