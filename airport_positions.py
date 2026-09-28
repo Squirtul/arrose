@@ -563,6 +563,13 @@ AIRPORT_POSITIONS = {
         "APP": ["ENGM_W_APP", "ENGM_E_APP", "ENGM_D_APP", "ENGM_F_APP"],
         "ACC": ["ENOR_CTR", "ENOR_S_CTR", "ENOR_SC_CTR", "ENOS_CTR", "ENOS_N_CTR", "ENRC_S_CTR"],
     },
+    "ENHD": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["ENHD_TWR"],
+        "APP": ["ENZV_APP"],
+        "ACC": ["ENOR_CTR", "ENOR_S_CTR", "ENOR_SC_CTR", "ENSV_CTR"],
+    },
     "ENKB": {
         "DEL": [],
         "GND": [],
@@ -1290,6 +1297,20 @@ AIRPORT_POSITIONS = {
         "TWR": ["LPFR_TWR"],
         "APP": ["LPFR_APP"],
         "ACC": ["LPPC_CTR", "LPPC_E_CTR"],
+    },
+    "LPHR": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["LPHR_TWR"],
+        "APP": ["LPHR_APP"],
+        "ACC": ["LPPO_FSS"],
+    },
+    "LPLA": {
+        "DEL": ["LPLA_DEL"],
+        "GND": ["LPLA_GND"],
+        "TWR": ["LPLA_TWR"],
+        "APP": ["LPHR_APP"],
+        "ACC": ["LPPO_FSS"],
     },
     "LPPD": {
         "DEL": [],
