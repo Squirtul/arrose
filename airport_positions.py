@@ -1670,10 +1670,10 @@ AIRPORT_POSITIONS = {
         "ACC": ["UHHH_CTR"],
     },
     "UKBB": {
-        "DEL": [],
+        "DEL": ["UKBB_DEL"],
         "GND": ["UKBB_GND"],
-        "TWR": ["UKBB_TWR"],
-        "APP": ["UKBB_APP"],
+        "TWR": ["UKBB_TWR", "UKBB_E_TWR", "UKBB_2_TWR"],
+        "APP": ["UKBB_APP", "UKBV_APP"],
         "ACC": ["UKR_CTR"],
     },
     "UKDD": {
@@ -1822,6 +1822,13 @@ AIRPORT_POSITIONS = {
         "TWR": ["ZGSZ_TWR"],
         "APP": [],
         "ACC": ["ZGGG_CTR"],
+    },
+    "ZPLJ": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["ZPLJ_TWR"],
+        "APP": ["ZPLJ_APP"],
+        "ACC": [],
     },
     "ZSHC": {
         "DEL": [],
