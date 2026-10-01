@@ -1536,6 +1536,13 @@ AIRPORT_POSITIONS = {
         "APP": ["OEJN_APP"],
         "ACC": ["OEJD_1_CTR"],
     },
+    "OERK": {
+        "DEL": ["OERK_DEL"],
+        "GND": ["OERK_N_GND"],
+        "TWR": ["OERK_E_TWR"],
+        "APP": ["OERK_E_APP"],
+        "ACC": ["OEJD_1_CTR"],
+    },
     "OJAI": {
         "DEL": [],
         "GND": ["OJAI_GND"],
