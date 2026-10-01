@@ -1774,6 +1774,13 @@ AIRPORT_POSITIONS = {
         "APP": ["UWWW_APP"],
         "ACC": ["UWWW_CTR"],
     },
+    "UWUU": {
+        "DEL": [],
+        "GND": ["UWUU_GND"],
+        "TWR": ["UWUU_TWR"],
+        "APP": ["UWUU_APP"],
+        "ACC": ["UWWW_CTR"],
+    },
     "VCBI": {
         "DEL": ["VCBI_DEL"],
         "GND": ["VCBI_GND"],
