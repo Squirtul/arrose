@@ -1034,9 +1034,9 @@ AIRPORT_POSITIONS = {
     },
     "LEMD": {
         "DEL": ["LEMD_DEL"],
-        "GND": ["LEMD_GND"],
+        "GND": ["LEMD_GND", "LEMD_S_GND", "LEMD_W_GND", "LEMD_C_GND"],
         "TWR": ["LEMD_TWR"],
-        "APP": ["LEMD_EN_APP"],
+        "APP": ["LEMD_EN_APP", "LEMD_WN_APP", "LEMD_RE_APP"],
         "ACC": ["LECM_CTR", "LECM_R2_CTR"],
     },
     "LEMH": {
