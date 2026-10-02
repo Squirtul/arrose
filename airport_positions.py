@@ -1809,6 +1809,13 @@ AIRPORT_POSITIONS = {
         "APP": ["VOBL_APP"],
         "ACC": ["VOMF_UAC_CTR"],
     },
+    "VTBS": {
+        "DEL": [],
+        "GND": ["VTBS_GND"],
+        "TWR": ["VTBS_TWR"],
+        "APP": ["VTBS_APP"],
+        "ACC": [],
+    },
     "VVTS": {
         "DEL": [],
         "GND": ["VVTS_GND"],
