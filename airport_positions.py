@@ -1830,6 +1830,13 @@ AIRPORT_POSITIONS = {
         "APP": ["UWUU_APP"],
         "ACC": ["UWWW_CTR"],
     },
+    "VABB": {
+        "DEL": ["VABB_DEL"],
+        "GND": ["VABB_GND"],
+        "TWR": ["VABB_TWR"],
+        "APP": ["VABB_APP", "VABB_F_APP"],
+        "ACC": [],
+    },
     "VCBI": {
         "DEL": ["VCBI_DEL"],
         "GND": ["VCBI_GND"],
@@ -1856,6 +1863,13 @@ AIRPORT_POSITIONS = {
         "GND": ["VOBL_GND", "VOBL_1_GND"],
         "TWR": ["VOBL_TWR"],
         "APP": ["VOBL_APP"],
+        "ACC": ["VOMF_UAC_CTR"],
+    },
+    "VOMM": {
+        "DEL": ["VOMM_DEL"],
+        "GND": ["VOMM_GND"],
+        "TWR": ["VOMM_TWR"],
+        "APP": ["VOMM_APP"],
         "ACC": ["VOMF_UAC_CTR"],
     },
     "VTBS": {
