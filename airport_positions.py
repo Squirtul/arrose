@@ -738,6 +738,20 @@ AIRPORT_POSITIONS = {
         "APP": ["ESSA_E_APP", "ESSA_W_APP", "ESSA_A_APP"],
         "ACC": ["ESAA_CTR", "ESOS_1_CTR", "ESOS_3_CTR"],
     },
+    "ESSB": {
+        "DEL": [],
+        "GND": ["ESSB_GND"],
+        "TWR": ["ESSB_TWR"],
+        "APP": ["ESSA_E_APP"],
+        "ACC": ["ESAA_CTR", "ESOS_1_CTR", "ESOS_3_CTR"],
+    },
+    "ESSU": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["ESSU_I_TWR"],
+        "APP": ["ESSA_E_APP"],
+        "ACC": ["ESAA_CTR", "ESOS_1_CTR", "ESOS_3_CTR"],
+    },
     "EVRA": {
         "DEL": [],
         "GND": ["EVRA_GND"],
@@ -1864,6 +1878,13 @@ AIRPORT_POSITIONS = {
         "TWR": ["WADD_TWR"],
         "APP": ["WADD_APP"],
         "ACC": ["WAAF_CTR", "WAAF_BI_CTR"],
+    },
+    "WIII": {
+        "DEL": [],
+        "GND": ["WIII_GND"],
+        "TWR": ["WIII_TWR"],
+        "APP": ["WIII_APP"],
+        "ACC": ["WIIF_CTR"],
     },
     "WMKK": {
         "DEL": [],
