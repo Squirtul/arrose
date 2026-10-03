@@ -1004,6 +1004,13 @@ AIRPORT_POSITIONS = {
         "APP": ["SFO_DEP", "NCT_APP"],
         "ACC": ["OAK_62_CTR"],
     },
+    "KSLC": {
+        "DEL": ["SLC_DEL"],
+        "GND": ["SLC_W1_GND"],
+        "TWR": ["SLC_C_TWR", "SLC_E_TWR"],
+        "APP": ["SLC_K_APP", "SLC_J_APP"],
+        "ACC": ["SLC_04_CTR", "SLC_44_CTR"],
+    },
     "KTEB": {
         "DEL": ["TEB_DEL"],
         "GND": ["TEB_GND"],
