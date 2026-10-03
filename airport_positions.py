@@ -1884,14 +1884,14 @@ AIRPORT_POSITIONS = {
         "GND": ["BN_GND"],
         "TWR": ["BN_TWR"],
         "APP": ["BN_APP"],
-        "ACC": ["BN-INL_CTR"],
+        "ACC": ["BN-INL_CTR", "BN-KPL_CTR"],
     },
     "YBCG": {
         "DEL": ["CG_DEL"],
         "GND": ["CG_GND"],
         "TWR": ["CG_TWR"],
         "APP": ["CG_APP"],
-        "ACC": ["BN-INL_CTR"],
+        "ACC": ["BN-INL_CTR", "BN-KPL_CTR"],
     },
     "YSCB": {
         "DEL": [],
