@@ -1767,6 +1767,13 @@ AIRPORT_POSITIONS = {
         "APP": ["SPJC_APP"],
         "ACC": ["LIM_CTR"],
     },
+    "TNCM": {
+        "DEL": ["TNCM_DEL"],
+        "GND": [],
+        "TWR": ["TNCM_TWR"],
+        "APP": ["TNCM_APP"],
+        "ACC": ["SJU_2_CTR"],
+    },
     "UBBB": {
         "DEL": ["UBBB_DEL"],
         "GND": ["UBBB_GND"],
