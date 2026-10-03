@@ -871,6 +871,13 @@ AIRPORT_POSITIONS = {
         "APP": ["D10_L_DEP", "D10_E_APP"],
         "ACC": ["FTW_93_CTR", "FTW_50_CTR", "FTW_46_CTR"],
     },
+    "KDEN": {
+        "DEL": ["DEN_DEL"],
+        "GND": ["DEN_GND"],
+        "TWR": ["DEN_TWR"],
+        "APP": ["DEN_X_APP", "DEN_W_APP", "DEN_L_APP"],
+        "ACC": ["DEN_11_CTR", "DEN_14_CTR", "DEN_17_CTR"],
+    },
     "KDFW": {
         "DEL": ["DFW_DEL"],
         "GND": ["DFW_E_GND", "DFW_RW_RMP"],
