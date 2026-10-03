@@ -442,7 +442,7 @@ AIRPORT_POSITIONS = {
         "GND": ["EGNT_GND"],
         "TWR": ["EGNT_TWR"],
         "APP": ["EGNT_APP"],
-        "ACC": ["MAN_CTR", "LON_CTR", "LON_N_CTR"],
+        "ACC": ["MAN_CTR", "MAN_NE_CTR", "LON_CTR", "LON_N_CTR"],
     },
     "EGNX": {
         "DEL": [],
@@ -491,7 +491,7 @@ AIRPORT_POSITIONS = {
         "GND": [],
         "TWR": ["EGSH_TWR"],
         "APP": ["EGSH_APP"],
-        "ACC": ["LON_CTR", "LON_N_CTR"],
+        "ACC": ["LON_CTR", "LON_N_CTR", "LON_NE_CTR"],
     },
     "EGSS": {
         "DEL": [],
@@ -508,10 +508,10 @@ AIRPORT_POSITIONS = {
         "ACC": ["LON_CTR", "LON_W_CTR"],
     },
     "EHAM": {
-        "DEL": ["EHAM_DEL"],
+        "DEL": ["EHAM_DEL", "EHAM_P_DEL"],
         "GND": ["EHAM_N_GND", "EHAM_S_GND"],
-        "TWR": ["EHAM_M_TWR"],
-        "APP": ["EHAM_W_APP"],
+        "TWR": ["EHAM_M_TWR", "EHAM_P_TWR"],
+        "APP": ["EHAM_W_APP", "EHAM_A_APP"],
         "ACC": ["EHAA_LOW_CTR", "EHAA_ALL_CTR"],
     },
     "EHBK": {
@@ -1453,11 +1453,11 @@ AIRPORT_POSITIONS = {
         "ACC": ["LPPC_CTR", "LPPC_E_CTR", "LPPC_N_CTR"],
     },
     "LPPT": {
-        "DEL": ["LPPT_DEL"],
+        "DEL": ["LPPT_DEL" "LPPT_C_DEL"],
         "GND": ["LPPT_GND"],
         "TWR": ["LPPT_TWR"],
         "APP": ["LPPT_APP", "LPPT_W_APP", "LPPT_F_APP"],
-        "ACC": ["LPPC_CTR", "LPPC_E_CTR"],
+        "ACC": ["LPPC_CTR", "LPPC_C_CTR", "LPPC_E_CTR"],
     },
     "LRIA": {
         "DEL": [],
