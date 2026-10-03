@@ -1858,6 +1858,13 @@ AIRPORT_POSITIONS = {
         "APP": ["VVTS_APP", "VVTS_F_APP"],
         "ACC": ["VCL_CTR", "VVHM_CTR"],
     },
+    "WADD": {
+        "DEL": ["WADD_DEL"],
+        "GND": ["WADD_GND"],
+        "TWR": ["WADD_TWR"],
+        "APP": ["WADD_APP"],
+        "ACC": ["WAAF_CTR", "WAAF_BI_CTR"],
+    },
     "WMKK": {
         "DEL": [],
         "GND": [],
@@ -1892,6 +1899,13 @@ AIRPORT_POSITIONS = {
         "TWR": ["CB_TWR"],
         "APP": ["CB_APP"],
         "ACC": ["ML-GUN_CTR"],
+    },
+    "YSCS": {
+        "DEL": ["CS_DEL"],
+        "GND": ["CS_GND"],
+        "TWR": ["CS_TWR"],
+        "APP": ["CS_APP", "CS-W_APP"],
+        "ACC": ["BN-KEN_CTR"],
     },
     "YSSY": {
         "DEL": ["SY_DEL"],
