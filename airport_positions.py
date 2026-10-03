@@ -511,7 +511,7 @@ AIRPORT_POSITIONS = {
         "DEL": ["EHAM_DEL", "EHAM_P_DEL"],
         "GND": ["EHAM_N_GND", "EHAM_S_GND"],
         "TWR": ["EHAM_M_TWR", "EHAM_P_TWR"],
-        "APP": ["EHAM_W_APP", "EHAM_A_APP"],
+        "APP": ["EHAM_W_APP", "EHAM_A_APP", "EHAM_E_APP"],
         "ACC": ["EHAA_LOW_CTR", "EHAA_ALL_CTR"],
     },
     "EHBK": {
@@ -1073,6 +1073,13 @@ AIRPORT_POSITIONS = {
         "TWR": ["LDZA_TWR"],
         "APP": ["LDZA_APP"],
         "ACC": ["ADR_CTR", "ADR_W_CTR", "LDZO_CTR"],
+    },
+    "LEAL": {
+        "DEL": ["LEAL_DEL"],
+        "GND": ["LEAL_GND"],
+        "TWR": ["LEAL_TWR"],
+        "APP": ["LEAL_APP"],
+        "ACC": ["LECB_CTR", "LECB_RW_CTR", "LECL_CTR"],
     },
     "LEAS": {
         "DEL": [],
