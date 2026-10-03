@@ -1842,7 +1842,7 @@ AIRPORT_POSITIONS = {
         "GND": ["VABB_GND"],
         "TWR": ["VABB_TWR"],
         "APP": ["VABB_APP", "VABB_F_APP"],
-        "ACC": [],
+        "ACC": ["VABF_UAC_CTR"],
     },
     "VCBI": {
         "DEL": ["VCBI_DEL"],
