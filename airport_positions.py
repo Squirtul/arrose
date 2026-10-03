@@ -862,7 +862,7 @@ AIRPORT_POSITIONS = {
         "GND": ["BOS_GND", "BOS_D_GND"],
         "TWR": ["BOS_TWR", "BOS_1_TWR"],
         "APP": ["A90_APP", "BOS_APP", "BOS_1_APP", "BOS_2_APP", "BOS_3_APP"],
-        "ACC": ["BOS_1_CTR", "BOS_2_CTR", "BOS_3_CTR"],
+        "ACC": ["BOS_CTR", "BOS_1_CTR", "BOS_2_CTR", "BOS_3_CTR"],
     },
     "KDAL": {
         "DEL": [],
@@ -941,6 +941,13 @@ AIRPORT_POSITIONS = {
         "APP": ["MEM_E_APP"],
         "ACC": ["MEM_22_CTR"],
     },
+    "KMHT": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["MHT_TWR"],
+        "APP": ["A90_APP"],
+        "ACC": ["BOS_CTR", "BOS_1_CTR"],
+    },
     "KMIA": {
         "DEL": ["MIA_DEL"],
         "GND": ["MIA_N_GND"],
@@ -967,14 +974,14 @@ AIRPORT_POSITIONS = {
         "GND": ["PVD_GND"],
         "TWR": ["PVD_TWR"],
         "APP": ["PVD_APP"],
-        "ACC": ["BOS_1_CTR", "BOS_2_CTR", "BOS_3_CTR"],
+        "ACC": ["BOS_CTR", "BOS_1_CTR", "BOS_2_CTR", "BOS_3_CTR"],
     },
     "KPWM": {
         "DEL": [],
         "GND": ["PWM_GND"],
         "TWR": ["PWM_TWR"],
         "APP": ["PWM_APP"],
-        "ACC": ["BOS_1_CTR"],
+        "ACC": ["BOS_CTR", "BOS_1_CTR"],
     },
     "KSAN": {
         "DEL": [],
