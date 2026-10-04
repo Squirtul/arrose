@@ -31,11 +31,18 @@ AIRPORT_POSITIONS = {
         "APP": ["BKPR_APP"],
         "ACC": ["KFOR_CTR"],
     },
-    "CYVR": {
+    "CYLW": {
         "DEL": [],
         "GND": [],
-        "TWR": [],
-        "APP": ["CYVR_APP"],
+        "TWR": ["CYLW_TWR"],
+        "APP": ["CYLW_APP"],
+        "ACC": ["CZVR_CTR"],
+    },
+    "CYVR": {
+        "DEL": [],
+        "GND": ["CYVR_GND"],
+        "TWR": ["CYVR_1_TWR"],
+        "APP": ["CYVR_1_APP"],
         "ACC": ["CZVR_CTR"],
     },
     "CYWG": {
@@ -44,6 +51,13 @@ AIRPORT_POSITIONS = {
         "TWR": ["CYWG_TWR"],
         "APP": ["CYWG_APP"],
         "ACC": ["WPG_CTR", "WPG_L_CTR"],
+    },
+    "CYYJ": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["CYYJ_TWR"],
+        "APP": ["CYVR_1_APP"],
+        "ACC": ["CZVR_CTR"],
     },
     "CYYZ": {
         "DEL": ["CYYZ_DEL"],
