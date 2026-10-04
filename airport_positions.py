@@ -941,6 +941,13 @@ AIRPORT_POSITIONS = {
         "APP": ["LAX_S_DEP", "SCT_APP"],
         "ACC": ["LAX_25_CTR"],
     },
+    "KLEX": {
+        "DEL": [],
+        "GND": ["LEX_GND"],
+        "TWR": ["LEX_TWR"],
+        "APP": ["LEX_E_APP"],
+        "ACC": ["IND_83_CTR"],
+    },
     "KLGA": {
         "DEL": ["LGA_DEL"],
         "GND": ["LGA_GND"],
