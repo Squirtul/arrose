@@ -470,14 +470,14 @@ AIRPORT_POSITIONS = {
         "GND": ["EGPF_GND"],
         "TWR": ["EGPF_TWR"],
         "APP": ["EGPF_APP"],
-        "ACC": ["SCO_CTR", "SCO_S_CTR", "SCL_TMA_CTR"],
+        "ACC": ["SCO_CTR", "SCO_S_CTR", "SCL_GTA_CTR", "SCL_TMA_CTR"],
     },
     "EGPH": {
         "DEL": ["EGPH_DEL"],
         "GND": ["EGPH_GND"],
         "TWR": ["EGPH_TWR"],
         "APP": ["EGPH_APP"],
-        "ACC": ["SCO_CTR", "SCO_S_CTR", "SCL_TMA_CTR"],
+        "ACC": ["SCO_CTR", "SCO_S_CTR", "SCL_GTA_CTR", "SCL_TMA_CTR"],
     },
     "EGPK": {
         "DEL": [],
@@ -1093,7 +1093,7 @@ AIRPORT_POSITIONS = {
         "GND": ["LEAL_GND"],
         "TWR": ["LEAL_TWR"],
         "APP": ["LEAL_APP"],
-        "ACC": ["LECB_CTR", "LECB_RW_CTR", "LECL_CTR"],
+        "ACC": ["LECB_CTR", "LECB_RS_CTR", "LECB_RW_CTR", "LECL_CTR"],
     },
     "LEAS": {
         "DEL": [],
@@ -1163,7 +1163,7 @@ AIRPORT_POSITIONS = {
         "GND": ["LEVC_GND"],
         "TWR": ["LEVC_TWR"],
         "APP": ["LEVC_APP"],
-        "ACC": ["LECL_CTR", "LECB_CTR", "LECB_RS_CTR"],
+        "ACC": ["LECL_CTR", "LECB_CTR", "LECB_RW_CTR", "LECB_RS_CTR"],
     },
     "LEVX": {
         "DEL": [],
