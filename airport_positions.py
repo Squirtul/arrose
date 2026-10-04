@@ -1912,7 +1912,7 @@ AIRPORT_POSITIONS = {
         "GND": ["VTBS_GND"],
         "TWR": ["VTBS_TWR"],
         "APP": ["VTBS_APP"],
-        "ACC": [],
+        "ACC": ["VTBB_CTR"],
     },
     "VVTS": {
         "DEL": [],
