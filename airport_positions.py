@@ -1988,7 +1988,7 @@ AIRPORT_POSITIONS = {
         "DEL": ["ZGSZ_DEL"],
         "GND": ["ZGSZ_GND"],
         "TWR": ["ZGSZ_TWR"],
-        "APP": [],
+        "APP": ["ZGJD_APP"],
         "ACC": ["ZGGG_CTR"],
     },
     "ZPLJ": {
