@@ -829,6 +829,13 @@ AIRPORT_POSITIONS = {
         "APP": ["HECA_APP"],
         "ACC": ["HECC_CTR", "HECC_1_CTR"],
     },
+    "KATL": {
+        "DEL": ["ATL_DEL"],
+        "GND": ["ATL_GND"],
+        "TWR": ["ATL_TWR"],
+        "APP": ["ATL_APP"],
+        "ACC": ["ATL_CTR"],
+    },
     "KAUS": {
         "DEL": [],
         "GND": [],
