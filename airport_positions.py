@@ -1653,7 +1653,7 @@ AIRPORT_POSITIONS = {
         "GND": [],
         "TWR": ["MUHA_TWR"],
         "APP": ["MUHA_APP"],
-        "ACC": ["MUFH_CTR"],
+        "ACC": ["MUFH_CTR", "MUFH_D_CTR"],
     },
     "OBBI": {
         "DEL": ["OBBI_DEL"],
