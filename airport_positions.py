@@ -346,6 +346,13 @@ AIRPORT_POSITIONS = {
         "APP": ["EFRO_APP", "EFRO_R_APP"],
         "ACC": ["EFIN_CTR", "EFIN_D_CTR", "EFIN_G_CTR", "EFIN_M_CTR", "EFIN_V_CTR"],
     },
+    "EFSA": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["EFSA_I_TWR"],
+        "APP": [],
+        "ACC": ["EFIN_CTR", "EFIN_D_CTR", "EFIN_G_CTR", "EFIN_M_CTR", "EFIN_V_CTR"],
+    },
     "EFTU": {
         "DEL": [],
         "GND": [],
