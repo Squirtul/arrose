@@ -850,6 +850,13 @@ AIRPORT_POSITIONS = {
         "APP": ["FZAA_APP"],
         "ACC": [],
     },
+    "HAAB": {
+        "DEL": [],
+        "GND": ["HAAB_GND"],
+        "TWR": ["HAAB_TWR"],
+        "APP": ["HAAB_APP"],
+        "ACC": ["HAAA_1_CTR"],
+    },
     "HECA": {
         "DEL": ["HECA_DEL"],
         "GND": ["HECA_2_GND"],
