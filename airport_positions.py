@@ -1398,8 +1398,8 @@ AIRPORT_POSITIONS = {
     },
     "LIPZ": {
         "DEL": [],
-        "GND": ["LIPZ_1_GND"],
-        "TWR": ["LIPZ_1_TWR"],
+        "GND": ["LIPZ_1_GND", "LIPZ_GND"],
+        "TWR": ["LIPZ_1_TWR", "LIPZ_TWR"],
         "APP": ["LIPZ_SE1_APP"],
         "ACC": "LIPP_CE1_CTR"],
     },
