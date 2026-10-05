@@ -668,6 +668,13 @@ AIRPORT_POSITIONS = {
         "APP": ["ENBR_W_APP", "ENBR_E_APP", "ENBR_D_APP"],
         "ACC": ["ENOR_CTR", "ENOR_S_CTR", "ENOR_SC_CTR", "ENRC_S_CTR", "ENSV_CTR", "ENSV_N_CTR"],
     },
+    "ENTC": {
+        "DEL": ["ENTC_DEL"],
+        "GND": [],
+        "TWR": ["ENTC_TWR"],
+        "APP": ["ENTC_APP"],
+        "ACC": ["ENOR_CTR", "ENBD_CTR", "ENBD_N_CTR"],
+    },
     "ENTO": {
         "DEL": [],
         "GND": ["ENTO_GND"],
