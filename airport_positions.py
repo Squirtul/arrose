@@ -1397,7 +1397,7 @@ AIRPORT_POSITIONS = {
         "ACC": ["LIMM_WS2_CTR"],
     },
     "LIPZ": {
-        "DEL": [],
+        "DEL": ["LIPZ_DEL"],
         "GND": ["LIPZ_1_GND", "LIPZ_GND"],
         "TWR": ["LIPZ_1_TWR", "LIPZ_TWR"],
         "APP": ["LIPZ_SE1_APP"],
