@@ -1501,6 +1501,13 @@ AIRPORT_POSITIONS = {
         "APP": ["LOWW_APP", "LOWW_F_APP"],
         "ACC": ["LOVV_CTR", "LOVV_E_CTR", "LOVV_C_CTR", "LOVV_N_CTR", "LOVV_S_CTR"],
     },
+    "LPAZ": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["LPAZ_TWR"],
+        "APP": ["LPPD_APP"],
+        "ACC": ["LPPO_FSS"],
+    },
     "LPFR": {
         "DEL": [],
         "GND": ["LPFR_GND"],
