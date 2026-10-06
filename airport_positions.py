@@ -661,6 +661,13 @@ AIRPORT_POSITIONS = {
         "APP": ["ENAL_APP"],
         "ACC": ["ENOR_CTR", "ENOR_SC_CTR"],
     },
+    "ENSK": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["ENSK_I_TWR"],
+        "APP": [],
+        "ACC": ["ENOR_CTR", "ENBD_CTR", "ENBD_N_CTR"],
+    },
     "ENSO": {
         "DEL": [],
         "GND": [],
@@ -1982,14 +1989,14 @@ AIRPORT_POSITIONS = {
         "GND": ["VOBL_GND", "VOBL_1_GND"],
         "TWR": ["VOBL_TWR"],
         "APP": ["VOBL_APP"],
-        "ACC": ["VOMF_UAC_CTR"],
+        "ACC": ["VOMF_M_CTR", "VOMF_UAC_CTR"],
     },
     "VOMM": {
         "DEL": ["VOMM_DEL"],
         "GND": ["VOMM_GND"],
         "TWR": ["VOMM_TWR"],
         "APP": ["VOMM_APP"],
-        "ACC": ["VOMF_UAC_CTR"],
+        "ACC": ["VOMF_M_CTR", "VOMF_UAC_CTR"],
     },
     "VTBS": {
         "DEL": [],
