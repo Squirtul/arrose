@@ -1256,6 +1256,13 @@ AIRPORT_POSITIONS = {
         "APP": ["LFBO_APP", "LFBO_AE_APP"],
         "ACC": ["LFBB_CTR"],
     },
+    "LFBZ": {
+        "DEL": [],
+        "GND": ["LFBZ_GND"],
+        "TWR": ["LFBZ_TWR"],
+        "APP": ["LFBZ_APP"],
+        "ACC": ["LFBB_CTR"],
+    },
     "LFLL": {
         "DEL": ["LFLL_DEL"],
         "GND": ["LFLL_GND"],
