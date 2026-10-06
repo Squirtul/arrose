@@ -1508,6 +1508,13 @@ AIRPORT_POSITIONS = {
         "APP": ["LPPD_APP"],
         "ACC": ["LPPO_FSS"],
     },
+    "LPCS": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["LPCS_TWR"],
+        "APP": ["LPPT_APP"],
+        "ACC": ["LPPC_CTR", "LPPC_C_CTR", "LPPC_E_CTR"],
+    },
     "LPFR": {
         "DEL": [],
         "GND": ["LPFR_GND"],
