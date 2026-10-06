@@ -66,6 +66,13 @@ AIRPORT_POSITIONS = {
         "APP": ["TOR_AA_APP", "TOR_AB_APP", "TOR_AC_APP", "TOR_SD_APP"],
         "ACC": ["TOR_CE_CTR", "TOR_GR_CTR", "TOR_KF_CTR", "TOR_SH_CTR", "TOR_SI_CTR"],
     },
+    "DTNH": {
+        "DEL": [],
+        "GND": ["DTNH_GND"],
+        "TWR": ["DTNH_TWR"],
+        "APP": ["DTNH_APP"],
+        "ACC": ["DTTC_CTR"],
+    },
     "EBAW": {
         "DEL": [],
         "GND": ["EBAW_GND"],
