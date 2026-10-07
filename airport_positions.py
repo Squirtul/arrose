@@ -1844,6 +1844,13 @@ AIRPORT_POSITIONS = {
         "APP": ["SAZM_APP"],
         "ACC": ["SAEF_CTR"],
     },
+    "SAZS": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["SAZS_TWR"],
+        "APP": ["SAZS_APP"],
+        "ACC": [],
+    },
     "SBFL": {
         "DEL": [],
         "GND": [],
