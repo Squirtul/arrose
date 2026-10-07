@@ -927,6 +927,13 @@ AIRPORT_POSITIONS = {
         "APP": ["A90_APP", "BOS_APP", "BOS_1_APP", "BOS_2_APP", "BOS_3_APP"],
         "ACC": ["BOS_CTR", "BOS_1_CTR", "BOS_2_CTR", "BOS_3_CTR"],
     },
+    "KCLT": {
+        "DEL": ["CLT_DEL"],
+        "GND": ["CLT_GND"],
+        "TWR": ["CLT_TWR"],
+        "APP": ["CLT_APP"],
+        "ACC": [],
+    },
     "KDAL": {
         "DEL": [],
         "GND": ["DAL_GND"],
