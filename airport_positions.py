@@ -1361,12 +1361,26 @@ AIRPORT_POSITIONS = {
         "APP": ["LGKR_APP"],
         "ACC": ["LGGG_CTR", "LGGG_KRK_CTR"],
     },
+    "LGMT": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["LGMT_TWR"],
+        "APP": ["LGMT_APP"],
+        "ACC": ["LGGG_CTR", "LGMD_W_CTR"],
+    },
     "LGRX": {
         "DEL": [],
         "GND": [],
         "TWR": ["LGRX_TWR"],
         "APP": ["LGAD_APP"],
         "ACC": ["LGGG_CTR", "LGGG_KRK_CTR"],
+    },
+    "LGTS": {
+        "DEL": ["LGTS_DEL"],
+        "GND": ["LGTS_GND"],
+        "TWR": ["LGTS_TWR"],
+        "APP": ["LGTS_APP", "LGTS_F_APP"],
+        "ACC": ["LGGG_CTR", "LGMD_W_CTR"],
     },
     "LGZA": {
         "DEL": [],
