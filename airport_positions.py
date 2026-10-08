@@ -1543,6 +1543,13 @@ AIRPORT_POSITIONS = {
         "APP": ["LKTB_APP"],
         "ACC": ["LKAA_CTR"],
     },
+    "LLBG": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["LLBG_D_TWR"],
+        "APP": ["LLBG_APP"],
+        "ACC": ["LLLL_CTR"],
+    },
     "LOWI": {
         "DEL": [],
         "GND": [],
@@ -1968,6 +1975,13 @@ AIRPORT_POSITIONS = {
         "GND": ["ULLI_GND"],
         "TWR": ["ULLI_D_TWR", "ULLI_A_TWR"],
         "APP": ["ULLL_APP", "ULLI_R_APP"],
+        "ACC": ["ULLL_R_CTR"],
+    },
+    "ULOO": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["ULOO_TWR"],
+        "APP": [],
         "ACC": ["ULLL_R_CTR"],
     },
     "USSS": {
