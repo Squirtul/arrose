@@ -1767,6 +1767,13 @@ AIRPORT_POSITIONS = {
         "APP": ["OBBI_APP", "OBBI_F_APP"],
         "ACC": ["OBBB_1_CTR"],
     },
+    "OEDF": {
+        "DEL": [],
+        "GND": ["OEDF_W_GND"],
+        "TWR": ["OEDF_W_TWR"],
+        "APP": ["OEDF_APP"],
+        "ACC": ["OEJD_1_CTR"],
+    },
     "OEJN": {
         "DEL": ["OEJN_DEL"],
         "GND": ["OEJN_W_GND"],
@@ -1999,8 +2006,8 @@ AIRPORT_POSITIONS = {
         "ACC": ["UUWV_CTR"],
     },
     "UUEE": {
-        "DEL": [],
-        "GND": [],
+        "DEL": ["UUEE_DEL"],
+        "GND": ["UUEE_GND"],
         "TWR": ["UUEE_TWR"],
         "APP": ["UUEE_APP", "MSK_APP"],
         "ACC": ["UUWV_CTR"],
@@ -2144,6 +2151,13 @@ AIRPORT_POSITIONS = {
         "TWR": ["SY_TWR"],
         "APP": ["SY_APP"],
         "ACC": ["ML-GUN_CTR"],
+    },
+    "ZBAA": {
+        "DEL": ["ZBAA_DEL"],
+        "GND": ["ZBAA_GND"],
+        "TWR": ["ZBAA_TWR"],
+        "APP": ["ZBAA_APP"],
+        "ACC": ["ZBAA_CTR"],
     },
     "ZGSZ": {
         "DEL": ["ZGSZ_DEL"],
