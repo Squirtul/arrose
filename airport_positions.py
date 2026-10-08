@@ -392,8 +392,8 @@ AIRPORT_POSITIONS = {
         "DEL": [],
         "GND": ["EGGD_GND"],
         "TWR": ["EGGD_TWR"],
-        "APP": ["EGGD_APP"],
-        "ACC": ["LON_CTR", "LON_W_CTR"],
+        "APP": ["EGGD_APP", "EGGD_F_APP"],
+        "ACC": ["LON_CTR", "LON_W_CTR", "LON_WB_CTR", "LON_23_CTR"],
     },
     "EGGP": {
         "DEL": [],
@@ -1645,7 +1645,7 @@ AIRPORT_POSITIONS = {
         "DEL": [],
         "GND": ["LSGG_GND", "LSGG_A_GND"],
         "TWR": ["LSGG_TWR"],
-        "APP": ["LSGG_APP"],
+        "APP": ["LSGG_APP", "LSGG_F_APP"],
         "ACC": ["LSAG_CTR"],
     },
     "LSZH": {
