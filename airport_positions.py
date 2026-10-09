@@ -738,6 +738,13 @@ AIRPORT_POSITIONS = {
         "APP": ["EPWA_APP"],
         "ACC": ["EPWW_CTR"],
     },
+    "EPPO": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["EPPO_TWR"],
+        "APP": ["EPPO_N_APP"],
+        "ACC": ["EPWW_CTR"],
+    },
     "EPRZ": {
         "DEL": [],
         "GND": [],
@@ -757,6 +764,20 @@ AIRPORT_POSITIONS = {
         "GND": ["EPWA_GND"],
         "TWR": ["EPWA_TWR"],
         "APP": ["EPWA_APP", "EPWA_N_APP", "EPWA_F_APP"],
+        "ACC": ["EPWW_CTR"],
+    },
+    "EPWR": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["EPWR_TWR"],
+        "APP": ["EPPO_N_APP"],
+        "ACC": ["EPWW_CTR"],
+    },
+    "EPZG": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["EPZG_TWR"],
+        "APP": ["EPPO_N_APP"],
         "ACC": ["EPWW_CTR"],
     },
     "ESGG": {
@@ -1577,6 +1598,13 @@ AIRPORT_POSITIONS = {
         "TWR": ["LPCS_TWR"],
         "APP": ["LPPT_APP"],
         "ACC": ["LPPC_CTR", "LPPC_C_CTR", "LPPC_E_CTR"],
+    },
+    "LPFL": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["LPFL_TWR"],
+        "APP": ["LPFL_APP"],
+        "ACC": ["LPPO_FSS"],
     },
     "LPFR": {
         "DEL": [],
