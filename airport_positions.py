@@ -241,6 +241,13 @@ AIRPORT_POSITIONS = {
         "APP": ["EDJA_APP"],
         "ACC": ["EDMM_STA_CTR", "EDMM_ZUG_CTR"],
     },
+    "EDLN": {
+        "DEL": [],
+        "GND": ["EDLN_GND"],
+        "TWR": ["EDLN_TWR"],
+        "APP": ["EDDL_APP", "EDGG_KL_APP"],
+        "ACC": ["EDGG_NH_CTR", "EDGG_N_CTR", "EDGG_BB_CTR"],
+    },
     "EDLP": {
         "DEL": [],
         "GND": ["EDLP_GND"],
@@ -252,7 +259,7 @@ AIRPORT_POSITIONS = {
         "DEL": [],
         "GND": [],
         "TWR": ["EDLV_TWR"],
-        "APP": ["EDDL_APP"],
+        "APP": ["EDDL_APP", "EDGG_KL_APP"],
         "ACC": ["EDGG_NH_CTR", "EDGG_N_CTR", "EDGG_BB_CTR"],
     },
     "EDLW": {
@@ -261,7 +268,10 @@ AIRPORT_POSITIONS = {
         "TWR": ["EDLW_TWR"],
         "APP": ["EDDG_HMM_APP"],
         "ACC": ["EDGG_NH_CTR", "EDGG_N_CTR", "EDGG_PAD_CTR"],
-    },
+    },Commit changes
+Commit message
+Extended description
+
     "EDMO": {
         "DEL": [],
         "GND": [],
