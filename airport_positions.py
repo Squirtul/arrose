@@ -514,6 +514,13 @@ AIRPORT_POSITIONS = {
         "APP": ["EGPK_APP", "EGPK_F_APP"],
         "ACC": ["SCL_GAL_CTR", "SCL_TMA_CTR", "SCL_GTA_CTR", "SCO_BDS_CTR", "SCO_WB_CTR", "SCO_S_CTR", "SCO_CTR"],
     },
+    "EGSC": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["EGSC_TWR"],
+        "APP": ["EGSC_APP", "ESSEX_APP"],
+        "ACC": ["LON_CTR", "LON_E_CTR", "LON_C_CTR", "LON_SC_CTR"],
+    },
     "EGSH": {
         "DEL": [],
         "GND": [],
@@ -526,7 +533,7 @@ AIRPORT_POSITIONS = {
         "GND": [],
         "TWR": ["EGSS_TWR"],
         "APP": ["EGSS_APP", "ESSEX_APP"],
-        "ACC": ["LON_CTR", "LON_C_CTR", "LON_SC_CTR", "LTC_CTR", "LTC_N_CTR"],
+        "ACC": ["LON_CTR", "LON_E_CTR", "LON_C_CTR", "LON_SC_CTR", "LTC_CTR", "LTC_N_CTR"],
     },
     "EGTE": {
         "DEL": [],
