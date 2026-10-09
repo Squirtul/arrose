@@ -1081,6 +1081,12 @@ AIRPORT_POSITIONS = {
         "APP": ["CHI_Z_APP"],
         "ACC": ["CHI_35_CTR"],
     },
+    "KPNS": {
+        "DEL": ["PNS_DEL"],
+        "GND": ["PNS_GND"],
+        "TWR": ["PNS_TWR"],
+        "APP": ["PNS_APP"],
+    },
     "KPVD": {
         "DEL": ["PVD_DEL"],
         "GND": ["PVD_GND"],
@@ -1864,6 +1870,13 @@ AIRPORT_POSITIONS = {
         "TWR": ["OPKC_TWR"],
         "APP": [],
         "ACC": ["OPKR_CTR"],
+    },
+    "PHNL": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["HNL_N_TWR"],
+        "APP": ["HNL_H_APP"],
+        "ACC": ["HNL_02_CTR"],
     },
     "RCTP": {
         "DEL": ["RCTP_DEL"],
