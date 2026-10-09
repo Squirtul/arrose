@@ -268,10 +268,7 @@ AIRPORT_POSITIONS = {
         "TWR": ["EDLW_TWR"],
         "APP": ["EDDG_HMM_APP"],
         "ACC": ["EDGG_NH_CTR", "EDGG_N_CTR", "EDGG_PAD_CTR"],
-    },Commit changes
-Commit message
-Extended description
-
+    },
     "EDMO": {
         "DEL": [],
         "GND": [],
