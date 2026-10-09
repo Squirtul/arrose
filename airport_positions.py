@@ -739,8 +739,8 @@ AIRPORT_POSITIONS = {
         "ACC": ["EPWW_CTR"],
     },
     "EPPO": {
-        "DEL": [],
-        "GND": [],
+        "DEL": ["EPPO_DEL"],
+        "GND": ["EPPO_GND"],
         "TWR": ["EPPO_TWR"],
         "APP": ["EPPO_N_APP"],
         "ACC": ["EPWW_CTR"],
@@ -767,8 +767,8 @@ AIRPORT_POSITIONS = {
         "ACC": ["EPWW_CTR"],
     },
     "EPWR": {
-        "DEL": [],
-        "GND": [],
+        "DEL": ["EPWR_DEL"],
+        "GND": ["EPWR_GND"],
         "TWR": ["EPWR_TWR"],
         "APP": ["EPPO_N_APP"],
         "ACC": ["EPWW_CTR"],
