@@ -1092,7 +1092,7 @@ AIRPORT_POSITIONS = {
         "DEL": ["PNS_DEL"],
         "GND": ["PNS_GND"],
         "TWR": ["PNS_TWR"],
-        "APP": ["PNS_APP"],
+        "APP": ["PNS_E_APP"],
     },
     "KPVD": {
         "DEL": ["PVD_DEL"],
