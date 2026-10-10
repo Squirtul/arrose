@@ -1039,6 +1039,13 @@ AIRPORT_POSITIONS = {
         "APP": ["AZO_G_APP"],
         "ACC": ["CHI_35_CTR"],
     },
+    "KIAD": {
+        "DEL": ["IAD_DEL"],
+        "GND": ["IAD_W_GND"],
+        "TWR": ["IAD_N_TWR"],
+        "APP": ["PCT_APP"],
+        "ACC": ["DC_32_CTR"],
+    },
     "KIAH": {
         "DEL": [],
         "GND": ["IAH_W_GND", "IAH_N_RMP"],
