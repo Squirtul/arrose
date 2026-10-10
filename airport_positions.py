@@ -836,6 +836,13 @@ AIRPORT_POSITIONS = {
         "APP": ["ESSA_E_APP"],
         "ACC": ["ESAA_CTR", "ESOS_1_CTR", "ESOS_3_CTR"],
     },
+    "ETAD": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["ETAD_TWR"],
+        "APP": [],
+        "ACC": ["EDGG_C_CTR", "EDGG_CS_CTR", "EDGG_RUD_CTR"],
+    },
     "EVRA": {
         "DEL": [],
         "GND": ["EVRA_GND"],
