@@ -1914,11 +1914,18 @@ AIRPORT_POSITIONS = {
         "ACC": ["OPKR_CTR"],
     },
     "PHNL": {
+        "DEL": ["HNL_DEL"],
+        "GND": ["HNL_GND"],
+        "TWR": ["HNL_N_TWR", "HNL_A_TWR"],
+        "APP": ["HNL_H_APP", "HNL_L_APP"],
+        "ACC": ["HNL_02_CTR", "HNL_05_CTR"],
+    },
+    "PHOG": {
         "DEL": [],
         "GND": [],
-        "TWR": ["HNL_N_TWR"],
-        "APP": ["HNL_H_APP"],
-        "ACC": ["HNL_02_CTR"],
+        "TWR": ["OGG_TWR"],
+        "APP": ["OGG_S_APP"],
+        "ACC": ["HNL_02_CTR", "HNL_05_CTR"],
     },
     "RCTP": {
         "DEL": ["RCTP_DEL"],
