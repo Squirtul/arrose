@@ -283,6 +283,20 @@ AIRPORT_POSITIONS = {
         "APP": ["EDDS_STG_APP"],
         "ACC": ["EDGG_S_CTR"],
     },
+    "EDVE": {
+        "DEL": [],
+        "GND": ["EDVE_GND"],
+        "TWR": ["EDVE_TWR"],
+        "APP": ["EDDV_APP"],
+        "ACC": ["EDWW_CTR", "EDWW_EMS_CTR"],
+    },
+    "EDVK": {
+        "DEL": [],
+        "GND": ["EDVK_GND"],
+        "TWR": ["EDVK_TWR"],
+        "APP": [],
+        "ACC": ["EDWW_CTR", "EDWW_EMS_CTR"],
+    },
     "EDXW": {
         "DEL": [],
         "GND": [],
