@@ -1815,6 +1815,13 @@ AIRPORT_POSITIONS = {
         "APP": ["LZKZ_APP"],
         "ACC": ["LZBB_CTR"],
     },
+    "MKJP": {
+        "DEL": [],
+        "GND": ["MKJP_GND"],
+        "TWR": ["MKJP_TWR"],
+        "APP": ["MKJP_APP"],
+        "ACC": [],
+    },
     "MKJS": {
         "DEL": [],
         "GND": ["MKJS_GND"],
@@ -1842,6 +1849,13 @@ AIRPORT_POSITIONS = {
         "TWR": ["MUHA_TWR"],
         "APP": ["MUHA_APP"],
         "ACC": ["MUFH_CTR", "MUFH_D_CTR"],
+    },
+    "NZAA": {
+        "DEL": [],
+        "GND": ["NZAA_GND"],
+        "TWR": ["NZAA_TWR"],
+        "APP": ["NZAA_APP"],
+        "ACC": ["NZAA_CTR"],
     },
     "OBBI": {
         "DEL": ["OBBI_DEL"],
