@@ -1082,7 +1082,7 @@ AIRPORT_POSITIONS = {
         "ACC": ["LAX_25_CTR"],
     },
     "KLEX": {
-        "DEL": [],
+        "DEL": ["LEX_DEL"],
         "GND": ["LEX_GND"],
         "TWR": ["LEX_TWR"],
         "APP": ["LEX_E_APP"],
