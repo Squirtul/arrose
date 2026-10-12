@@ -2060,12 +2060,26 @@ AIRPORT_POSITIONS = {
         "APP": ["SPJC_APP"],
         "ACC": ["LIM_CTR"],
     },
+    "TBPB": {
+        "DEL": [],
+        "GND": ["TBPB_GND"],
+        "TWR": ["TBPB_TWR"],
+        "APP": ["TBPB_APP"],
+        "ACC": ["TTPP_CTR"],
+    },
     "TNCM": {
         "DEL": ["TNCM_DEL"],
         "GND": [],
         "TWR": ["TNCM_TWR"],
         "APP": ["TNCM_APP"],
         "ACC": ["SJU_2_CTR"],
+    },
+    "TVSA": {
+        "DEL": [],
+        "GND": ["TVSA_GND"],
+        "TWR": ["TVSA_TWR"],
+        "APP": ["TVSA_APP"],
+        "ACC": ["TTPP_CTR"],
     },
     "UBBB": {
         "DEL": ["UBBB_DEL"],
