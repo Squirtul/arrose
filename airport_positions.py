@@ -2016,7 +2016,7 @@ AIRPORT_POSITIONS = {
         "GND": ["SBGR_GND"],
         "TWR": ["SBGR_TWR"],
         "APP": ["SBXP_APP"],
-        "ACC": [],
+        "ACC": ["SBCW_CTR"],
     },
     "SBPA": {
         "DEL": [],
