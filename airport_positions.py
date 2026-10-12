@@ -31,6 +31,13 @@ AIRPORT_POSITIONS = {
         "APP": ["BKPR_APP"],
         "ACC": ["KFOR_CTR"],
     },
+    "CYHZ": {
+        "DEL": [],
+        "GND": ["CYHZ_GND"],
+        "TWR": ["CYHZ_TWR"],
+        "APP": ["CYHZ_APP"],
+        "ACC": ["CZQM_CTR"],
+    },
     "CYLW": {
         "DEL": [],
         "GND": [],
