@@ -1990,6 +1990,13 @@ AIRPORT_POSITIONS = {
         "APP": ["RPVM_APP", "RPVM_S_APP"],
         "ACC": ["MNL_CTR"],
     },
+    "SAEZ": {
+        "DEL": ["SAEZ_DEL"],
+        "GND": ["SAEZ_GND"],
+        "TWR": ["SAEZ_TWR"],
+        "APP": ["BAIRES_CTR"],
+        "ACC": ["SAEF_CTR"],
+    },
     "SAWH": {
         "DEL": [],
         "GND": ["SAWH_GND"],
@@ -2009,7 +2016,7 @@ AIRPORT_POSITIONS = {
         "GND": [],
         "TWR": ["SAZS_TWR"],
         "APP": ["SAZS_APP"],
-        "ACC": [],
+        "ACC": ["SAEF_CTR"],
     },
     "SBFL": {
         "DEL": [],
