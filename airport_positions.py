@@ -1574,8 +1574,8 @@ AIRPORT_POSITIONS = {
         "DEL": ["LIPZ_DEL"],
         "GND": ["LIPZ_1_GND", "LIPZ_GND"],
         "TWR": ["LIPZ_1_TWR", "LIPZ_TWR"],
-        "APP": ["LIPZ_SE1_APP"],
-        "ACC": "LIPP_CE1_CTR"],
+        "APP": ["LIPZ_SE0_APP", "LIPZ_SE1_APP", "LIPP_I_APP"],
+        "ACC": ["LIPP_CE1_CTR", "LIPP_NE6_CTR"],
     },
     "LIRA": {
         "DEL": [],
