@@ -35,7 +35,7 @@ AIRPORT_POSITIONS = {
         "DEL": [],
         "GND": ["CYHZ_GND"],
         "TWR": ["CYHZ_TWR"],
-        "APP": ["CYHZ_APP"],
+        "APP": ["CYHZ_APP", "CZQM_L_APP"],
         "ACC": ["CZQM_CTR"],
     },
     "CYLW": {
@@ -1386,7 +1386,7 @@ AIRPORT_POSITIONS = {
         "GND": ["LFML_GND"],
         "TWR": ["LFML_TWR"],
         "APP": ["LFML_ME_APP"],
-        "ACC": ["LFMM_CTR"],
+        "ACC": ["LFMM_CTR", "LFMM_RAW_CTR", "LFMM_W_CTR"],
     },
     "LFMN": {
         "DEL": ["LFMN_DEL"],
