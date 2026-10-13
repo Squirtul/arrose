@@ -1371,8 +1371,8 @@ AIRPORT_POSITIONS = {
         "DEL": ["LFLL_DEL"],
         "GND": ["LFLL_GND"],
         "TWR": ["LFLL_TWR"],
-        "APP": ["LFLL_VW_APP"],
-        "ACC": ["LFMM_CTR"],
+        "APP": ["LFLL_VW_APP", "LFLL_F_APP"],
+        "ACC": ["LFMM_CTR", "LFMM_W_CTR"],
     },
     "LFKJ": {
         "DEL": [],
