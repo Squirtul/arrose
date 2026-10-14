@@ -806,7 +806,7 @@ AIRPORT_POSITIONS = {
         "GND": ["EPWA_GND"],
         "TWR": ["EPWA_TWR"],
         "APP": ["EPWA_APP", "EPWA_N_APP", "EPWA_F_APP"],
-        "ACC": ["EPWW_CTR"],
+        "ACC": ["EPWW_CTR", "EPWW_S_CTR"],
     },
     "EPWR": {
         "DEL": ["EPWR_DEL"],
@@ -1617,7 +1617,7 @@ AIRPORT_POSITIONS = {
         "GND": [],
         "TWR": ["LKKV_TWR"],
         "APP": [],
-        "ACC": ["LKAA_CTR"],
+        "ACC": ["LKAA_CTR", "LKAA_W_CTR"],
     },
     "LKPR": {
         "DEL": ["LKPR_DEL"],
@@ -1631,7 +1631,7 @@ AIRPORT_POSITIONS = {
         "GND": ["LKTB_GND"],
         "TWR": ["LKTB_TWR"],
         "APP": ["LKTB_APP"],
-        "ACC": ["LKAA_CTR"],
+        "ACC": ["LKAA_CTR", "LKAA_NS_CTR"],
     },
     "LLBG": {
         "DEL": [],
