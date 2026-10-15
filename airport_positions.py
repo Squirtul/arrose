@@ -1988,7 +1988,7 @@ AIRPORT_POSITIONS = {
         "GND": ["RPVM_GND"],
         "TWR": ["RPVM_TWR"],
         "APP": ["RPVM_APP", "RPVM_S_APP"],
-        "ACC": ["MNL_CTR"],
+        "ACC": ["MNL_CTR", "MNL_2_CTR"],
     },
     "SAEZ": {
         "DEL": ["SAEZ_DEL"],
