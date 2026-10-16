@@ -2305,6 +2305,20 @@ AIRPORT_POSITIONS = {
         "APP": ["CG_APP"],
         "ACC": ["BN-INL_CTR", "BN-KPL_CTR"],
     },
+    "YPJT": {
+        "DEL": [],
+        "GND": ["JT_GND"],
+        "TWR": ["JT_TWR"],
+        "APP": ["PH_APP"],
+        "ACC": [],
+    },
+    "YPPH": {
+        "DEL": ["PH_DEL"],
+        "GND": ["PH_GND"],
+        "TWR": ["PH_TWR"],
+        "APP": ["PH_APP"],
+        "ACC": [],
+    },
     "YSCB": {
         "DEL": [],
         "GND": ["CB_GND"],
