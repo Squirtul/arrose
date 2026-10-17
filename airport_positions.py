@@ -1756,8 +1756,8 @@ AIRPORT_POSITIONS = {
         "DEL": [],
         "GND": ["LSGG_GND", "LSGG_A_GND"],
         "TWR": ["LSGG_TWR"],
-        "APP": ["LSGG_APP", "LSGG_F_APP"],
-        "ACC": ["LSAG_CTR"],
+        "APP": ["LSGG_APP", "LSGG_DEP", "LSGG_F_APP"],
+        "ACC": ["LSAG_CTR", "LSAG_E_CTR"],
     },
     "LSZH": {
         "DEL": ["LSZH_DEL"],
@@ -2232,7 +2232,7 @@ AIRPORT_POSITIONS = {
         "DEL": ["VHHH_DEL"],
         "GND": ["VHHH_1_GND"],
         "TWR": ["VHHH_N_TWR", "VHHH_S_TWR"],
-        "APP": ["VHHH_APP", "VHHH_F_APP", "VHHH_W_APP"],
+        "APP": ["VHHH_APP", "VHHH_F_APP", "VHHH_W_APP", "VHHH_N_DEP"],
         "ACC": ["HKG_S_CTR", "HKG_W_CTR"],
     },
     "VOBL": {
