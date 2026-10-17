@@ -687,14 +687,14 @@ AIRPORT_POSITIONS = {
         "GND": [],
         "TWR": ["ENCN_TWR"],
         "APP": ["ENCN_APP"],
-        "ACC": ["ENOS_CTR", "ENOS_8_CTR", "ENOR_CTR", "ENOR_S_CTR", "ENOR_SC_CTR"],
+        "ACC": ["ENOS_CTR", "ENOS_4_CTR", "ENOS_8_CTR", "ENOR_CTR", "ENOR_S_CTR", "ENOR_SC_CTR"],
     },
     "ENGM": {
         "DEL": ["ENGM_W_DEL", "ENGM_E_DEL"],
         "GND": ["ENGM_W_GND", "ENGM_E_GND", "ENGM_P_GND", "ENGM_ICE_GND"],
         "TWR": ["ENGM_W_TWR", "ENGM_E_TWR"],
         "APP": ["ENGM_W_APP", "ENGM_E_APP", "ENGM_D_APP", "ENGM_F_APP"],
-        "ACC": ["ENOR_CTR", "ENOR_S_CTR", "ENOR_SC_CTR", "ENOS_CTR", "ENOS_N_CTR", "ENRC_S_CTR"],
+        "ACC": ["ENOR_CTR", "ENOR_S_CTR", "ENOR_SC_CTR", "ENOS_CTR", "ENOS_N_CTR", "ENRC_S_CTR", "ENOS_4_CTR"],
     },
     "ENHD": {
         "DEL": [],
@@ -743,7 +743,7 @@ AIRPORT_POSITIONS = {
         "GND": ["ENTO_GND"],
         "TWR": ["ENTO_TWR"],
         "APP": ["ENTO_APP", "ENTO_D_APP"],
-        "ACC": ["ENOS_CTR", "ENOS_N_CTR", "ENOR_CTR", "ENOR_S_CTR", "ENOR_SC_CTR", "ENRC_S_CTR"],
+        "ACC": ["ENOS_CTR", "ENOS_N_CTR", "ENOS_4_CTR", "ENOR_CTR", "ENOR_S_CTR", "ENOR_SC_CTR", "ENRC_S_CTR"],
     },
     "ENVA": {
         "DEL": [],
