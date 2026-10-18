@@ -579,10 +579,10 @@ AIRPORT_POSITIONS = {
     },
     "EHAM": {
         "DEL": ["EHAM_DEL", "EHAM_P_DEL"],
-        "GND": ["EHAM_N_GND", "EHAM_S_GND"],
+        "GND": ["EHAM_N_GND", "EHAM_S_GND", "EHAM_C_GND"],
         "TWR": ["EHAM_M_TWR", "EHAM_P_TWR"],
         "APP": ["EHAM_W_APP", "EHAM_A_APP", "EHAM_E_APP"],
-        "ACC": ["EHAA_LOW_CTR", "EHAA_ALL_CTR"],
+        "ACC": ["EHAA_LOW_CTR", "EHAA_ALL_CTR", "EHAA_H_CTR", "EHAA_W_CTR", "EHAA_E_CTR"],
     },
     "EHBK": {
         "DEL": ["EHBK_DEL"],
@@ -948,6 +948,20 @@ AIRPORT_POSITIONS = {
         "APP": ["FZAA_APP"],
         "ACC": [],
     },
+    "GCLP": {
+        "DEL": ["GCLP_DEL"],
+        "GND": ["GCLP_GND"],
+        "TWR": ["GCLP_TWR"],
+        "APP": ["GCLP_APP"],
+        "ACC": ["GCCC_CTR"],
+    },
+    "GCTS": {
+        "DEL": ["GCTS_DEL"],
+        "GND": ["GCTS_GND"],
+        "TWR": ["GCTS_TWR"],
+        "APP": ["GCTS_APP", "GCCA_INB_APP"],
+        "ACC": ["GCCC_CTR"],
+    },
     "HAAB": {
         "DEL": [],
         "GND": ["HAAB_GND"],
@@ -1018,6 +1032,13 @@ AIRPORT_POSITIONS = {
         "APP": ["D10_L_DEP", "D10_E_APP"],
         "ACC": ["FTW_93_CTR", "FTW_50_CTR", "FTW_46_CTR"],
     },
+    "KDCA": {
+        "DEL": ["DCA_DEL"],
+        "GND": ["DCA_GND"],
+        "TWR": ["DCA_TWR"],
+        "APP": ["DCA_L_APP", "DCA_J_APP", "DCA_V_APP"],
+        "ACC": ["DC_12_CTR", "DC_32_CTR"],
+    },
     "KDEN": {
         "DEL": ["DEN_DEL"],
         "GND": ["DEN_GND"],
@@ -1064,8 +1085,8 @@ AIRPORT_POSITIONS = {
         "DEL": ["IAD_DEL"],
         "GND": ["IAD_W_GND"],
         "TWR": ["IAD_N_TWR"],
-        "APP": ["PCT_APP"],
-        "ACC": ["DC_32_CTR"],
+        "APP": ["PCT_APP", "IAD_M_APP", "IAD_A_APP", "IAD_X_APP". "IAD_B_APP"],
+        "ACC": ["DC_12_CTR", "DC_32_CTR"],
     },
     "KIAH": {
         "DEL": [],
@@ -1136,6 +1157,13 @@ AIRPORT_POSITIONS = {
         "TWR": ["ORD_S_TWR", "ORD_S1_TWR"],
         "APP": ["CHI_Z_APP"],
         "ACC": ["CHI_35_CTR"],
+    },
+    "KPDX": {
+        "DEL": ["PDX_DEL"],
+        "GND": ["PDX_GND"],
+        "TWR": ["PDX_O_TWR", "PDX_TWR"],
+        "APP": ["PDX_N_APP", "PDX_D_APP", "PDX_F_APP"],
+        "ACC": ["SEA_01_CTR", "SEA_16_CTR"],
     },
     "KPNS": {
         "DEL": ["PNS_DEL"],
@@ -2046,6 +2074,20 @@ AIRPORT_POSITIONS = {
         "TWR": ["SBPA_TWR"],
         "APP": ["SBWP_APP"],
         "ACC": ["SBCW_CTR"],
+    },
+    "SBSV": {
+        "DEL": [],
+        "GND": ["SBSV_GND"],
+        "TWR": ["SBSV_TWR"],
+        "APP": ["SBXS_APP"],
+        "ACC": ["SBRE_CTR"],
+    },
+    "SBVT": {
+        "DEL": [],
+        "GND": ["SBVT_GND"],
+        "TWR": ["SBVT_TWR"],
+        "APP": ["SBXR_APP"],
+        "ACC": ["SBRE_CTR"],
     },
     "SCEL": {
         "DEL": [],
