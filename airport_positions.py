@@ -1142,6 +1142,7 @@ AIRPORT_POSITIONS = {
         "GND": ["PNS_GND"],
         "TWR": ["PNS_TWR"],
         "APP": ["PNS_E_APP"],
+        "ACC": [],
     },
     "KPVD": {
         "DEL": ["PVD_DEL"],
@@ -2235,6 +2236,13 @@ AIRPORT_POSITIONS = {
         "APP": ["VHHH_APP", "VHHH_F_APP", "VHHH_W_APP", "VHHH_N_DEP"],
         "ACC": ["HKG_S_CTR", "HKG_W_CTR"],
     },
+    "VIDP": {
+        "DEL": ["VIDP_DEL"],
+        "GND": ["VIDP_GND"],
+        "TWR": ["VIDP_TWR"],
+        "APP": ["VIDP_APP"],
+        "ACC": ["VIDF_CTR"],
+    },
     "VOBL": {
         "DEL": ["VOBL_DEL"],
         "GND": ["VOBL_GND", "VOBL_1_GND"],
@@ -2250,10 +2258,17 @@ AIRPORT_POSITIONS = {
         "ACC": ["VOMF_M_CTR", "VOMF_UAC_CTR"],
     },
     "VTBS": {
-        "DEL": [],
-        "GND": ["VTBS_GND"],
+        "DEL": ["VTBS_DEL"],
+        "GND": ["VTBS_GND", "VTBS_W_GND"],
         "TWR": ["VTBS_TWR"],
-        "APP": ["VTBS_APP"],
+        "APP": ["VTBS_APP", "VTBS_F_APP"],
+        "ACC": ["VTBB_CTR"],
+    },
+    "VTSP": {
+        "DEL": ["VTSP_DEL"],
+        "GND": ["VTSP_GND"],
+        "TWR": ["VTSP_TWR"],
+        "APP": ["VTSP_APP"],
         "ACC": ["VTBB_CTR"],
     },
     "VVTS": {
@@ -2261,7 +2276,7 @@ AIRPORT_POSITIONS = {
         "GND": ["VVTS_GND"],
         "TWR": ["VVTS_TWR"],
         "APP": ["VVTS_APP", "VVTS_F_APP"],
-        "ACC": ["VCL_CTR", "VVHM_CTR"],
+        "ACC": ["VCL_CTR", "VVHM_CTR", "VVHM_4_CTR"],
     },
     "WADD": {
         "DEL": ["WADD_DEL"],
@@ -2286,9 +2301,9 @@ AIRPORT_POSITIONS = {
     },
     "WSSS": {
         "DEL": ["WSSS_DEL"],
-        "GND": ["WSSS_3_GND"],
-        "TWR": ["WSSS_1_TWR"],
-        "APP": ["WSSS_APP"],
+        "GND": ["WSSS_1_GND", "WSSS_2_GND", "WSSS_3_GND"],
+        "TWR": ["WSSS_1_TWR", "WSSS_2_TWR"],
+        "APP": ["WSSS_APP", "WSSS_DEP", "WSSS_F_APP"],
         "ACC": ["WSJC_CTR"],
     },
     "YBBN": {
