@@ -91,7 +91,7 @@ AIRPORT_POSITIONS = {
         "DEL": ["EBBR_DEL", "EBBR_P_DEL"],
         "GND": ["EBBR_N_GND", "EBBR_C_GND", "EBBR_S_GND"],
         "TWR": ["EBBR_S_TWR", "EBBR_N_TWR"],
-        "APP": ["EBBR_APP", "EBBR_F_APP", "EBBR_DEP"],
+        "APP": ["EBBR_APP", "EBBR_F_APP", "EBBR_H_APP", "EBBR_DEP"],
         "ACC": ["EBBU_E_CTR", "EBBU_W_CTR", "EBBU_LOW_CTR"],
     },
     "EBCI": {
