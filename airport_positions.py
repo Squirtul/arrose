@@ -1797,10 +1797,10 @@ AIRPORT_POSITIONS = {
     },
     "LSZH": {
         "DEL": ["LSZH_DEL"],
-        "GND": [],
+        "GND": ["LSZH_S_GND"],
         "TWR": ["LSZH_TWR"],
-        "APP": [],
-        "ACC": ["LSAZ_CTR"],
+        "APP": ["LSZH_APP", "LSZH_DEP", "LSZH_F_APP"],
+        "ACC": ["LSAZ_CTR", "LSAZ_E_CTR", "LSAZ_S_CTR"],
     },
     "LTAC": {
         "DEL": [],
