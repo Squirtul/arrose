@@ -1814,14 +1814,21 @@ AIRPORT_POSITIONS = {
         "GND": ["LTBS_GND"],
         "TWR": [],
         "APP": ["LTBS_APP", "LTBS_S_APP"],
-        "ACC": ["ANK_CTR", "ANK_WS_CTR", "ANK_W78_CTR"]
+        "ACC": ["ANK_CTR", "ANK_WS_CTR", "ANK_W78_CTR"],
+    },
+    "LTCF": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["LTCF_TWR"],
+        "APP": [],
+        "ACC": ["ANK_CTR", "ANK_E_CTR"],
     },
     "LTFE": {
         "DEL": [],
         "GND": ["LTFE_GND"],
         "TWR": ["LTFE_TWR"],
         "APP": ["LTFE_APP"],
-        "ACC": ["ANK_CTR", "ANK_WS_CTR", "ANK_W78_CTR"]
+        "ACC": ["ANK_CTR", "ANK_WS_CTR", "ANK_W78_CTR"],
     },
     "LTFM": {
         "DEL": ["LTFM_DEL"],
@@ -2131,6 +2138,13 @@ AIRPORT_POSITIONS = {
         "APP": ["SPJC_APP"],
         "ACC": ["LIM_CTR"],
     },
+    "SUMU": {
+        "DEL": [],
+        "GND": ["SUMU_GND"],
+        "TWR": ["SUMU_TWR"],
+        "APP": ["SUMU_APP"],
+        "ACC": ["SUEO_CTR"],
+    },
     "TBPB": {
         "DEL": [],
         "GND": ["TBPB_GND"],
@@ -2311,6 +2325,13 @@ AIRPORT_POSITIONS = {
         "GND": ["VTBS_GND", "VTBS_W_GND"],
         "TWR": ["VTBS_TWR"],
         "APP": ["VTBS_APP", "VTBS_F_APP"],
+        "ACC": ["VTBB_CTR"],
+    },
+    "VTSM": {
+        "DEL": [],
+        "GND": [],
+        "TWR": ["VTSM_TWR"],
+        "APP": ["VTSM_APP"],
         "ACC": ["VTBB_CTR"],
     },
     "VTSP": {
